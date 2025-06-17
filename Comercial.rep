@@ -1,0 +1,105 @@
+﻿REPORT (
+  Guid='NDoLiowG',
+  IsReadOnly=NO,
+  CatalogDefinition=
+    [CATALOG DEFINITION] (
+      Name='La Biblio',
+      Guid='aOPIYFiLLV',
+      FileName='La Biblio.metadata',
+      Location=URI 'https://demoserver.crono.net/api/guid/aOPIYFiLLV'
+    ),
+  CatalogGuid='aOPIYFiLLV',
+  Reports=(
+    [PANEL REPORT] (
+      Name='Informe 1',
+      IsVisible=YES,
+      ReportPredicates=(),
+      Sheets=(
+        SHEET (
+          Guid='WDcsazJE',
+          Name='Hoja 1',
+          Layout=
+            LAYOUT (
+              ItemHeight='*',
+              Items=(
+                LAYOUT (
+                  ItemHeight='*',
+                  Items=(),
+                  ItemWidth='*',
+                  IsVisible=YES,
+                  Orientation='Terminal',
+                  DataPanel=
+                    PANEL (
+                      Guid='wrLpIvrP',
+                      PanelQuery=
+                        QUERY (
+                          [Columns]=(
+                            [QUERY COLUMN] (Alias='Tienda', [Expression]=EXPRESSION ([Tienda|OyIxyCPJ]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                            [QUERY COLUMN] (Alias='País', [Expression]=EXPRESSION ([País|ycyAZMQo]), IsMeasure=NO, IsHierarchyLevel=YES),
+                            [QUERY COLUMN] (Alias='Zona', [Expression]=EXPRESSION ([Zona|ljYwQHEY]), IsMeasure=NO, IsHierarchyLevel=YES)
+                          )
+                        ),
+                      Type='Table',
+                      LockQuery=NO,
+                      ShowFilters=NO,
+                      AllowMoveColumns=YES,
+                      IsSelectionRequired=NO,
+                      GridFormat='H4sIAAAAAAAACuWX327aMBTG7yftHSJvl1UJ0N5BJJaODgkY4l-n3bnkFKw5PpHtwNJ32hPsYhd7oL3CnPBHtEmGW1GkapegfJ_P-fyLffLn56_GFy3pCCSjnN2DdJYgFUPRJNVzlzg0ijibUZ39cy1Z4KPQEjnx3r5xnEYkMQKpE0fQEJrkXZcmGOvp2oI4TImY8ybRMgbiVAo17_ddjeIbJFvBkvIYCpbNm0wUtBnwoG9-tVFu28nqJl7q1qhsJSUW1xLjyMdYaOK5dk-P4jCkMimuurqtNS_uaAirj9PZ99gp89rNmuMkMo9l5eZqLZK1OJuLENLmhmy-KBLlez4Uwgil7og7PGkAu30m3piBCKhV_2mpn2UAkngtNTMyJuZWwh7IOdwwvRhIWDKMVbbzxLujXMFRUvSRx6FQxSHWXybE9JUa4qqI9ONlPhG3hs_gimqa4prpN4dAGaQcVz5wnoVennFe-QloureONuuYzU6UyeZ8pKXZ5SeVvPYZI_Ixi4rPr2LhlCl2y6EjAvhum2prpmPKb1igF8Tr074NTcUY1E6OwYD-_qFeFQX2FR8JguqJIaifHIKvKF7XSWBd8JEQqL0YAgdvlSmDlRUQz40-xwXKkGozpwUsnbpK7jN3P77HFn1YpSAbGAeoMheTBwqb1ffnsSumIk6THgam_Gzw-ZBsLlkLp6z_j2kTKTG23a_9_QWiAjnSVMMz38Yurqdtc35cuPWzy-qF3XxjZnfDW809q126RwFojJry_33C7Q0nbca1-Z45iHOptMuUfrJ6n-d_j9k7kwfNNCoPP-u8v1YUbXrqDQAA',
+                      AllowPropagateFilters=YES,
+                      TableOptions=
+                        [TABLE OPTIONS] (
+                          Appearance=APPEARANCE (),
+                          SearchOptions=
+                            [SEARCH PANEL] (
+                              SearchPanelVisible=NO,
+                              Text='Búsqueda...',
+                              Width=240,
+                              AllowColumnFiltering=YES,
+                              AllowColumnSearch=YES
+                            )
+                        ),
+                      TableCellMerge=NO,
+                      ShowGroupbox=NO,
+                      ShowHeaders=YES,
+                      ShowRowHeaders=NO,
+                      ChartOptions=
+                        [CHART OPTIONS] (
+                          Legend=LEGEND (Visible=YES),
+                          Appearance=
+                            [CHART APPEARANCE] (
+                              Palette='Office'
+                            )
+                        ),
+                      GaugeMaxValue=100,
+                      GaugeMinValue=0,
+                      GaugeStyleType='Default',
+                      GaugeFlipColors=NO,
+                      MapShowScale=NO,
+                      MapShowNavigationControls=NO,
+                      MapShowCoordinates=NO,
+                      MapShapeNumSteps=8,
+                      MapShapeNumColors=1,
+                      MapCircleCalculateSizeFromIndicator=YES,
+                      RangeChartType='Area',
+                      DataInputAllowInsert=NO,
+                      DataInputAllowDelete=NO
+                    )
+                )
+              ),
+              ItemWidth='*',
+              IsVisible=YES,
+              Orientation='Horitzontal'
+            ),
+          IsVisible=YES,
+          PropagationMode='LeftToRight'
+        )
+      )
+    )
+  ),
+  Parameters=(),
+  ConnectionMode='Default',
+  ShowCatalog=YES,
+  ShowSheetsInReportExplorer=NO,
+  AllowDataInput=NO,
+  DefaultChartPalete='Office'
+)
