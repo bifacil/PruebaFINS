@@ -6,7 +6,7 @@
       Name='finsa',
       Guid='iMHgVFUlvr',
       FileName='finsa.metadata',
-      Location=URI 'http://localhost/api/guid/iMHgVFUlvr'
+      Location=URI 'http://192.168.3.249/api/guid/iMHgVFUlvr'
     ),
   CatalogGuid='iMHgVFUlvr',
   Reports=(
