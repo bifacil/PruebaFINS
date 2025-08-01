@@ -1,4 +1,4 @@
-REPORT (
+﻿REPORT (
   Guid='RBvsgqmI',
   IsReadOnly=NO,
   CatalogDefinition=
@@ -446,7 +446,7 @@ REPORT (
                   IsVisible=YES,
                   Orientation='Vertical'
                 ),
-              IsVisible=YES,
+              IsVisible=NO,
               PropagationMode='LeftToRight'
             ),
             SHEET (
@@ -1174,7 +1174,7 @@ REPORT (
                   IsVisible=YES,
                   Orientation='Horitzontal'
                 ),
-              IsVisible=NO,
+              IsVisible=YES,
               PropagationMode='LeftToRight'
             )
           )
@@ -1931,7 +1931,7 @@ REPORT (
       Items=(
         [PANEL REPORT] (
           Name='Pedidos',
-          IsVisible=YES,
+          IsVisible=NO,
           ReportPredicates=(
             [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('JVIdxlfm'), LeftPart=[Año|RxKiQMMH], Operator='Equal', Expressions=(2025)),
             [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('OgOkjhCd', 'qJCqkqtO'), LeftPart=[Estado|dbmXNVqL], Operator='Equal', Expressions=('Pendiente')),
@@ -2839,6 +2839,1578 @@ REPORT (
                           AllowMoveColumns=YES,
                           IsSelectionRequired=NO,
                           GridFormat='H4sIAAAAAAAACu2az07bQBDG75X6DpbbIwInJPypgqXUNDQSpCgJ0OtiD8mq611rd53UrXrp8_TWW3vogTfpC_QVunYSFIhTbGMWonJCRPnG38z-djeZyZ-fvxrvJUc94BgR_Am4MQIuMKN7ZmXdMg0UBAS7SCavHHDsOYxKzohpP39mGI2AswC4jAyKfNgzXxyiiIXydBLCNLCgISF7puQhmMZGqublfFSl-ADRTDBCJISUxy4GORHQwkC8jvqvxfgsncS3acfRGhszyZIQB5yFgcNCKk3byvbuXuj7iEfprmszr4vitgS_crM68zGulIva6TP7UaDelthd8JomaxI8oD7EyXXxYJgmSnspxXi1FOOhkMzP5PxqXZUKUYk95BkBeOpvJvk-FgFBkYLCRyr5z9arjvWlePabD5f9cZw0E8bvr98KZu7cJfPaw2Xe9gPGJRjIcEOFMLpLCaqZSnDr_u8pQ216wdL3fuV-9v5cSVrIxwRn2wKx13fcA27aTeEC9TAdZBIeAR_AGZbDYw4jzEKRnHqmfYGIgFLK6DAS-lSkV3H3fqoYXyddNk475Uss-gk9V4ezt48kitFPAkxvwHRBkxA2doCQpOrLi7yofAsoXlxDqueo1Y6EKs56T3K1zPk8TwL1GSN9HKTf3unCUyzwOYE29eBj1ro2XRkicoY9OTTtDurov5HuAAK4wxXDILPjkiCoaIZgUzsEncsf_uSTCFspFPL6LgmIqmYgatqBcAhWn05gpWDI47kkEDY1g1DXDkIXLoADdTEyQLiIekgt3kphUTyDkiCpaYZkSzsk-6qwHAcuvvxOV4qN3MZLQqKuGYlt_RdIgf7GY6GiiPeSwNjSDMaOdjDytn4eCxR5fZcExLZmIHa1A1G4I_ZYyCicQEmI7NwbIrf2vE4xjDMBU3QpFrhJ2p9qguLheB6ypNtmzZfvZogOjGPQFazHTCRRVD0YzfL0-UnJtB97xDxlPxlJvI6mLcAMkZL838RJxARlzX4S3xkyJoD3JJJQcLcesskcTPU2alZ9rV7N9o22p6Zq6ttv1Vqr1q1SAOozicjT7Olp9vQ0e_ovZ09H3ZMWJlIN2W89yZdKD7GQudXzR_m_B2BXQa4l09i4_lsD-y9QcyGMfyAAAA',
+                          AllowPropagateFilters=YES,
+                          TableOptions=
+                            [TABLE OPTIONS] (
+                              Appearance=APPEARANCE (),
+                              SearchOptions=
+                                [SEARCH PANEL] (
+                                  SearchPanelVisible=NO,
+                                  Text='Búsqueda...',
+                                  Width=240,
+                                  AllowColumnFiltering=YES,
+                                  AllowColumnSearch=YES
+                                )
+                            ),
+                          TableCellMerge=NO,
+                          ShowGroupbox=NO,
+                          ShowHeaders=YES,
+                          ShowRowHeaders=NO,
+                          ChartOptions=
+                            [CHART OPTIONS] (
+                              Legend=LEGEND (Visible=YES),
+                              Appearance=
+                                [CHART APPEARANCE] (
+                                  Palette='Office'
+                                )
+                            ),
+                          GaugeMaxValue=100,
+                          GaugeMinValue=0,
+                          GaugeStyleType='Default',
+                          GaugeFlipColors=NO,
+                          MapShowScale=NO,
+                          MapShowNavigationControls=NO,
+                          MapShowCoordinates=NO,
+                          MapShapeNumSteps=8,
+                          MapShapeNumColors=1,
+                          MapCircleCalculateSizeFromIndicator=YES,
+                          RangeChartType='Area',
+                          DataInputAllowInsert=NO,
+                          DataInputAllowDelete=NO
+                        )
+                    )
+                  ),
+                  ItemWidth='*',
+                  IsVisible=YES,
+                  Orientation='Horitzontal'
+                ),
+              IsVisible=NO,
+              PropagationMode='LeftToRight'
+            )
+          )
+        )
+      )
+    ),
+    [REPORT CONTAINER] (
+      Name='Ofertas',
+      Items=(
+        [PANEL REPORT] (
+          Name='Ofertas',
+          IsVisible=NO,
+          ReportPredicates=(),
+          Sheets=(
+            SHEET (
+              Guid='GtyKDbwo',
+              Name='Ofertas (Comercial / Familia / Cliente / Zona)',
+              Layout=
+                LAYOUT (
+                  ItemHeight='*',
+                  Items=(
+                    LAYOUT (
+                      ItemHeight='*',
+                      Items=(
+                        LAYOUT (
+                          ItemHeight='*',
+                          Items=(),
+                          ItemWidth='*',
+                          IsVisible=YES,
+                          Orientation='Terminal',
+                          DataPanel=
+                            PANEL (
+                              Guid='UPRvsdEl',
+                              PanelQuery=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Año', [Expression]=EXPRESSION ([Año|RxKiQMMH]), IsMeasure=NO, [Order]=0, OrderMode='Desc', IsHierarchyLevel=YES)
+                                  )
+                                ),
+                              Type='Table',
+                              LockQuery=NO,
+                              ShowFilters=NO,
+                              AllowMoveColumns=YES,
+                              IsSelectionRequired=NO,
+                              GridFormat='H4sIAAAAAAAACuVWy27bMBC8F-g_CGyPQWwZbU-2AFeuUwO2G_iVXBlrYxOluAK5sqv-Vc499NAP6i-ElB9wIrlRAiOXHiVwZndnh7v8--t385o0H4MWXIqfoL0VaCNQtZh_XmceTxIp5pzyPxdaRCEq0ihZ8PaN5zUTjQloyjzFY2ixd32eYUqzDQXzhFGplC1GOgXm1Uox7w9ZLeI7ZDvAissUSsIWSaYGugJkNLRfXdS7cvK8WeDYmrUd5AjFhcY0CTFVxIJ6tdPjNI65zsqz9ne5FsE9gth_rM4hxx5ZxG5jTrLEHsvTLeRaBmtLsVAxuOJGYrEsAxVrfkqEMWrqqVt8VQH2fWZB-88dVqreJfpNR6BZ0AEzBxUJtaiEHIBewJWg5aWGlcDU5I1nwS2XBk4iYogyjZV5VQ3djRrhuszop5J8qm6sOaMOJ-68mqO3E-CYQyWuQ5Ayl_y4wkXkV-CutR7ZOLbXmbHKnI9J2x4_I-ENywRRTkRSPrrKgTNhxI2EnorgR1VF23NKubwSES1ZMOTDkzhpJmBdyRAvlb7gC9QxJzuaI-EG7REP1w_le0wxhLUzsjXjJZqcxeqBqkr0wxHcESaRPBtg5DzqZt3nbHuxKjDl9X9xRTjHVK1-wx8uEQ3oMXGCF97GPm4WLAsaH858_1O1kWaXtQU06meNj_WT2GeCxOX_vtIGo2lXSLIPmCfNfBTaF4aejT5087_36p7kQTHN2sN3XHAPFY5REdsJAAA',
+                              AllowPropagateFilters=YES,
+                              TableOptions=
+                                [TABLE OPTIONS] (
+                                  Appearance=APPEARANCE (),
+                                  SearchOptions=
+                                    [SEARCH PANEL] (
+                                      SearchPanelVisible=NO,
+                                      Text='Búsqueda...',
+                                      Width=240,
+                                      AllowColumnFiltering=YES,
+                                      AllowColumnSearch=YES
+                                    )
+                                ),
+                              TableCellMerge=NO,
+                              ShowGroupbox=NO,
+                              ShowHeaders=YES,
+                              ShowRowHeaders=NO,
+                              ChartOptions=
+                                [CHART OPTIONS] (
+                                  Legend=LEGEND (Visible=YES),
+                                  Appearance=
+                                    [CHART APPEARANCE] (
+                                      Palette='Office'
+                                    )
+                                ),
+                              GaugeMaxValue=100,
+                              GaugeMinValue=0,
+                              GaugeStyleType='Default',
+                              GaugeFlipColors=NO,
+                              MapShowScale=NO,
+                              MapShowNavigationControls=NO,
+                              MapShowCoordinates=NO,
+                              MapShapeNumSteps=8,
+                              MapShapeNumColors=1,
+                              MapCircleCalculateSizeFromIndicator=YES,
+                              RangeChartType='Area',
+                              DataInputAllowInsert=NO,
+                              DataInputAllowDelete=NO
+                            )
+                        ),
+                        LAYOUT (
+                          ItemHeight='*',
+                          Items=(),
+                          ItemWidth='*',
+                          IsVisible=YES,
+                          Orientation='Terminal',
+                          DataPanel=
+                            PANEL (
+                              Guid='fqkhpllj',
+                              PanelQuery=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Mes', [Expression]=EXPRESSION ([Mes|gLaoTkvl]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES)
+                                  )
+                                ),
+                              Type='Table',
+                              LockQuery=NO,
+                              ShowFilters=NO,
+                              AllowMoveColumns=YES,
+                              IsSelectionRequired=NO,
+                              GridFormat='H4sIAAAAAAAACuVWTW_aQBC9V-p_sLY9RuEjyg0sUVJSJKARBtLrBk9g1PWOtTuGun-th_yk_oWuzYdIbBInQrn0aGvfm5k3b2b375-H1g82MgCDUuFvMN4KjEXSbdE4rwtPxrHCueT8z7XBsEuaDSnhf_zgea3YUAyGU0_LCNri00CmlPBsQyE8tDpRqi3YJCC8Winm8yGrQ_yEdAdYSZVASdgiydRCD0GFI_fVI7MrJ89b-Blbq7aDHKG4NpTEXUo0C79e7XSQRJE0aXnWjV2uRXCfIWo8VeeQY48sYrcxJ2nsjuXpFnItg3UULnQEWXFjXCzLQMWaXxIhIMN9fU_vKsC-z8Ifgq1UfJbndxOCEX7HzkGHqBeVgEMwC7hFXt4YWCElNm-78O-lsnASCbukkkjbd1Uwm6cxrctsfiLBp_rOOTO8kiwzo-bg7fgfs6eidReUyhU_LnAR-Q1k1liPXRzX6dQ6Yc4DNq7F1fPdkEyI1ATj8rVVDpyhxTsFfR3Cr6p6duacSHWLIS-FP5Kjk_hohrCuZIe3Kl9wBZlIslvLIWZL9oiD64fyPaUYwTqzsbPiDdmcxelBukr0w_V7hTZWMh1S6NLP99yXdDtWFZjy-r9mRWSGqVr9hr-7JLJgApYMb5zFAW0uV-FfNC7Omo3LagvN3dTCbzbrZ83L-kn8MyGW6n-_z4bjaQ8Vu9fLi24-Ch2g5VejD-38_KW6J3lUTKv2-BHn_wPYa7n82AkAAA',
+                              AllowPropagateFilters=YES,
+                              TableOptions=
+                                [TABLE OPTIONS] (
+                                  Appearance=APPEARANCE (),
+                                  SearchOptions=
+                                    [SEARCH PANEL] (
+                                      SearchPanelVisible=NO,
+                                      Text='Búsqueda...',
+                                      Width=240,
+                                      AllowColumnFiltering=YES,
+                                      AllowColumnSearch=YES
+                                    )
+                                ),
+                              TableCellMerge=NO,
+                              ShowGroupbox=NO,
+                              ShowHeaders=YES,
+                              ShowRowHeaders=NO,
+                              ChartOptions=
+                                [CHART OPTIONS] (
+                                  Legend=LEGEND (Visible=YES),
+                                  Appearance=[CHART APPEARANCE] ()
+                                ),
+                              GaugeMaxValue=100,
+                              GaugeMinValue=0,
+                              GaugeStyleType='Default',
+                              GaugeFlipColors=NO,
+                              MapShowScale=NO,
+                              MapShowNavigationControls=NO,
+                              MapShowCoordinates=NO,
+                              MapShapeNumSteps=8,
+                              MapShapeNumColors=1,
+                              MapCircleCalculateSizeFromIndicator=YES,
+                              RangeChartType='Area',
+                              DataInputAllowInsert=NO,
+                              DataInputAllowDelete=NO
+                            )
+                        )
+                      ),
+                      ItemWidth='0.3319*',
+                      IsVisible=YES,
+                      Orientation='Vertical'
+                    ),
+                    LAYOUT (
+                      ItemHeight='*',
+                      Items=(),
+                      ItemWidth='1.6681*',
+                      IsVisible=YES,
+                      Orientation='Terminal',
+                      DataPanel=
+                        PANEL (
+                          Guid='WcPxDCBG',
+                          PanelQuery=
+                            QUERY (
+                              [Columns]=(
+                                [QUERY COLUMN] (Alias='Comercial', [Expression]=EXPRESSION ([Comercial|uFGTPKze]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Estado oferta', [Expression]=EXPRESSION ([Estado oferta|XMRqZhAZ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Fecha', [Expression]=EXPRESSION ([Fecha|SZhySwzq]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Cod cliente', [Expression]=EXPRESSION ([Cod cliente|VJHeeEhJ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Cliente oferta', [Expression]=EXPRESSION ([Cliente oferta|eVJVGMKG]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Comisionista', [Expression]=EXPRESSION ([Comisionista|MlRkgFQt]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Código escandallo', [Expression]=EXPRESSION ([Código escandallo|EODPoKyl]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Referencia escandallo', [Expression]=EXPRESSION ([Referencia escandallo|QgYwbHBE]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Observación 1', [Expression]=EXPRESSION ([Observación 1|GFZdpqlE]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Oferta €', [Expression]=EXPRESSION ([Oferta €|slDvLRAX])),
+                                [QUERY COLUMN] (Alias='Importe €', [Expression]=EXPRESSION ([Importe €|TUxazBTt])),
+                                [QUERY COLUMN] (Alias='Margen oferta %', [Expression]=EXPRESSION ([Margen oferta %|tIXIhQEI]))
+                              )
+                            ),
+                          Type='Table',
+                          ShowNavigation=YES,
+                          DrillItems=(
+                            [DRILL ITEM] (
+                              Guid='FyjNQD',
+                              Name='Comercial',
+                              Type='Dimensions',
+                              [Data]=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Comercial', [Expression]=EXPRESSION ([Comercial|uFGTPKze]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Estado oferta', [Expression]=EXPRESSION ([Estado oferta|XMRqZhAZ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Fecha', [Expression]=EXPRESSION ([Fecha|SZhySwzq]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Cod cliente', [Expression]=EXPRESSION ([Cod cliente|VJHeeEhJ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Cliente oferta', [Expression]=EXPRESSION ([Cliente oferta|eVJVGMKG]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Comisionista', [Expression]=EXPRESSION ([Comisionista|MlRkgFQt]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Código escandallo', [Expression]=EXPRESSION ([Código escandallo|EODPoKyl]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Referencia escandallo', [Expression]=EXPRESSION ([Referencia escandallo|QgYwbHBE]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Observación 1', [Expression]=EXPRESSION ([Observación 1|GFZdpqlE]), IsMeasure=NO, IsHierarchyLevel=YES)
+                                  )
+                                )
+                            ),
+                            [DRILL ITEM] (
+                              Guid='bRMLBG',
+                              Name='Familia',
+                              Type='Dimensions',
+                              [Data]=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Familia', [Expression]=EXPRESSION ([Familia|VnPAJBWg]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Estado oferta', [Expression]=EXPRESSION ([Estado oferta|XMRqZhAZ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Fecha', [Expression]=EXPRESSION ([Fecha|SZhySwzq]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Cod cliente', [Expression]=EXPRESSION ([Cod cliente|VJHeeEhJ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Cliente oferta', [Expression]=EXPRESSION ([Cliente oferta|eVJVGMKG]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Comisionista', [Expression]=EXPRESSION ([Comisionista|MlRkgFQt]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Código escandallo', [Expression]=EXPRESSION ([Código escandallo|EODPoKyl]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Referencia escandallo', [Expression]=EXPRESSION ([Referencia escandallo|QgYwbHBE]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Observación 1', [Expression]=EXPRESSION ([Observación 1|GFZdpqlE]), IsMeasure=NO, IsHierarchyLevel=YES)
+                                  )
+                                )
+                            ),
+                            [DRILL ITEM] (
+                              Guid='JBbhgi',
+                              Name='Cliente',
+                              Type='Dimensions',
+                              [Data]=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Cliente', [Expression]=EXPRESSION ([Cliente|ZbwrrLaC]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Estado oferta', [Expression]=EXPRESSION ([Estado oferta|XMRqZhAZ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Fecha', [Expression]=EXPRESSION ([Fecha|SZhySwzq]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Código escandallo', [Expression]=EXPRESSION ([Código escandallo|EODPoKyl]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Referencia escandallo', [Expression]=EXPRESSION ([Referencia escandallo|QgYwbHBE]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES)
+                                  )
+                                )
+                            ),
+                            [DRILL ITEM] (
+                              Guid='ksuQbp',
+                              Name='Zona',
+                              Type='Dimensions',
+                              [Data]=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Zona', [Expression]=EXPRESSION ([Zona|BNsXBjFR]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Comercial', [Expression]=EXPRESSION ([Comercial|uFGTPKze]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Fecha', [Expression]=EXPRESSION ([Fecha|SZhySwzq]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Estado oferta', [Expression]=EXPRESSION ([Estado oferta|XMRqZhAZ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Cod cliente', [Expression]=EXPRESSION ([Cod cliente|VJHeeEhJ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Cliente', [Expression]=EXPRESSION ([Cliente|ZbwrrLaC]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Provincia', [Expression]=EXPRESSION ([Provincia|wjMBjMjM]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Código escandallo', [Expression]=EXPRESSION ([Código escandallo|EODPoKyl]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Referencia escandallo', [Expression]=EXPRESSION ([Referencia escandallo|QgYwbHBE]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES)
+                                  )
+                                )
+                            )
+                          ),
+                          CurrentDrillItemGuid='FyjNQD',
+                          LockQuery=NO,
+                          ShowFilters=NO,
+                          AllowMoveColumns=YES,
+                          IsSelectionRequired=NO,
+                          GridFormat='H4sIAAAAAAAACu2azW7jNhDH7wX6DoK2xbZAsJG_dpMiEeDI8a6BfMFOskWLHhhpYhNLkVqKSuou9tLn6W2PPfSwb9IX6CuUkh3XWdMxpSh0hCYHAxE0o_8MfyIpzvzz5187PwqOBsAxIvg34NYV8BgzumvXXji2haKIYB-J7MprjgOPUcEZsd2vv7KsnYizCLgYWxSFsGs_O0BjlojziQvbwjFNCNm1BU_AtjaVNt_Me5UW72B8Y3CFSAKKxy46OYuhi4EER_K_LuM34WS6bTf1trN5Y7LExWvOkshjCRW26-jdPUjCEPGxWnXzRuuicU9AWPsyO_M-ZpaLttNnno4jeVsmd0GryqxN8JCGkAbXx8ORykh1SSG8XorwJBYs1FI-G1fbPb6U15H19-9_aFl2cBwRNJY8hEjG_cH5wXM-Fg-8sb7ADxEfArXYJP5vC0Z_cp_om-uLvhdGjAu4z7jXtSJf-dYPpI4evWTqN772MG_8XCY8FgL35dSmlYdU7TEPgNtuO_aBBpgOtQwPQeL2FovRCYcrzJI4m-1s9xKRGEpJpMdIEtJ4SR4bD5PIdB3ps2vV9F5q3s_ohZyXgw4SKMU-czFd_NQGbULYtQeEZIlfnmeFZSJYFxMB3ONY_mJku3swxDROh0_LxRtAKSKWkFIlM-NYZvjFQHAJS97AJ65OGSOnOFKv_mrDcxzjCwI9GsCvusPT9kWCyFsciJHtHqEj8ytacZ72Y4ECNp3PHxtTdwKRX3lJUNQMQ9EwDkUX_FG1YNBXXBIEdcMQNNew0gSWT7DcqEOlUMiruyQgGoaBaJkHYpLUKq4VBaSXhEXTMBYv17EjlREziuOqQZFXeElItAwj8co8Ep8_BXjILIh9RAMkh69aYBSTXxIeLw3jsWUcjz7IaRio_JirKiHFIygJkleGIdk2DklHJpbjyMefP9FKsZFbeElIbBlGouYYZ-L4IgZ-hbLUWrVKUVFAeklcbJvmwvyhaM5qzKNhIp_sso6vTB9q1syfauat0zwWIvLqLgsJ00easq5iGokihcvHgkUR7WWh8XAHnStLc-cYrrU4KToMC7hkdVrZ4BHgtF1jSVGwfhegeaqCiojTJ_QTkhZm3suEKnO_xKy2BJ6T_U6vc6zpaVqp1tW_6GAP-e-GskZLA9t91u1utdqtpvpoVDlZrHiJV9d8Fs1nb677xfCqwdahPU-pzswg9_e9N-2f2p32msa523XkX7XHWWOCOILrdOzlCnTC4sy5nO0Y1Zlb5tu0pm0hhyyQarN-qL3xtA9Bw1M2u-2nsaUjrzu3Tfx7I8bkh8hAIAEFl-ADNmnCS3eSje2N5rbe5mEgW_pk2azubNRbTinLwykTiDw1vj01vj01vv2PGt8O-2eTNqMluzPnv93tYjyp3XTJXHrX7AEHsjCkfsYDdYXd0ifLU1Qg2T713c-z1qdfNqzniMDz7813GGlqu4-0ot-EetL0lK3Eb34Zv7sHcwbiLZ87m7eb3N1_AdSWQWv4LgAA',
+                          AllowPropagateFilters=YES,
+                          TableOptions=
+                            [TABLE OPTIONS] (
+                              Appearance=APPEARANCE (),
+                              SearchOptions=
+                                [SEARCH PANEL] (
+                                  SearchPanelVisible=NO,
+                                  Text='Búsqueda...',
+                                  Width=240,
+                                  AllowColumnFiltering=YES,
+                                  AllowColumnSearch=YES
+                                )
+                            ),
+                          TableCellMerge=NO,
+                          ShowGroupbox=NO,
+                          ShowHeaders=YES,
+                          ShowRowHeaders=NO,
+                          ChartOptions=
+                            [CHART OPTIONS] (
+                              Legend=LEGEND (Visible=YES),
+                              Appearance=
+                                [CHART APPEARANCE] (
+                                  Palette='Office'
+                                )
+                            ),
+                          GaugeMaxValue=100,
+                          GaugeMinValue=0,
+                          GaugeStyleType='Default',
+                          GaugeFlipColors=NO,
+                          MapShowScale=NO,
+                          MapShowNavigationControls=NO,
+                          MapShowCoordinates=NO,
+                          MapShapeNumSteps=8,
+                          MapShapeNumColors=1,
+                          MapCircleCalculateSizeFromIndicator=YES,
+                          RangeChartType='Area',
+                          DataInputAllowInsert=NO,
+                          DataInputAllowDelete=NO
+                        )
+                    )
+                  ),
+                  ItemWidth='*',
+                  IsVisible=YES,
+                  Orientation='Horitzontal'
+                ),
+              IsVisible=YES,
+              PropagationMode='LeftToRight'
+            ),
+            SHEET (
+              Guid='lQDUpAPK',
+              Name='Ofertas sin Margen  (Comercial / Familia / Cliente / Zona)',
+              Layout=
+                LAYOUT (
+                  ItemHeight='*',
+                  Items=(
+                    LAYOUT (
+                      ItemHeight='*',
+                      Items=(
+                        LAYOUT (
+                          ItemHeight='*',
+                          Items=(),
+                          ItemWidth='*',
+                          IsVisible=YES,
+                          Orientation='Terminal',
+                          DataPanel=
+                            PANEL (
+                              Guid='UPRvsdEl',
+                              PanelQuery=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Año', [Expression]=EXPRESSION ([Año|RxKiQMMH]), IsMeasure=NO, [Order]=0, OrderMode='Desc', IsHierarchyLevel=YES)
+                                  )
+                                ),
+                              Type='Table',
+                              LockQuery=NO,
+                              ShowFilters=NO,
+                              AllowMoveColumns=YES,
+                              IsSelectionRequired=NO,
+                              GridFormat='H4sIAAAAAAAACuVWy27bMBC8F-g_CGyPQWwZbU-2AFeuUwO2G_iVXBlrYxOluAK5sqv-Vc499NAP6i-ElB9wIrlRAiOXHiVwZndnh7v8--t385o0H4MWXIqfoL0VaCNQtZh_XmceTxIp5pzyPxdaRCEq0ihZ8PaN5zUTjQloyjzFY2ixd32eYUqzDQXzhFGplC1GOgXm1Uox7w9ZLeI7ZDvAissUSsIWSaYGugJkNLRfXdS7cvK8WeDYmrUd5AjFhcY0CTFVxIJ6tdPjNI65zsqz9ne5FsE9gth_rM4hxx5ZxG5jTrLEHsvTLeRaBmtLsVAxuOJGYrEsAxVrfkqEMWrqqVt8VQH2fWZB-88dVqreJfpNR6BZ0AEzBxUJtaiEHIBewJWg5aWGlcDU5I1nwS2XBk4iYogyjZV5VQ3djRrhuszop5J8qm6sOaMOJ-68mqO3E-CYQyWuQ5Ayl_y4wkXkV-CutR7ZOLbXmbHKnI9J2x4_I-ENywRRTkRSPrrKgTNhxI2EnorgR1VF23NKubwSES1ZMOTDkzhpJmBdyRAvlb7gC9QxJzuaI-EG7REP1w_le0wxhLUzsjXjJZqcxeqBqkr0wxHcESaRPBtg5DzqZt3nbHuxKjDl9X9xRTjHVK1-wx8uEQ3oMXGCF97GPm4WLAsaH858_1O1kWaXtQU06meNj_WT2GeCxOX_vtIGo2lXSLIPmCfNfBTaF4aejT5087_36p7kQTHN2sN3XHAPFY5REdsJAAA',
+                              AllowPropagateFilters=YES,
+                              TableOptions=
+                                [TABLE OPTIONS] (
+                                  Appearance=APPEARANCE (),
+                                  SearchOptions=
+                                    [SEARCH PANEL] (
+                                      SearchPanelVisible=NO,
+                                      Text='Búsqueda...',
+                                      Width=240,
+                                      AllowColumnFiltering=YES,
+                                      AllowColumnSearch=YES
+                                    )
+                                ),
+                              TableCellMerge=NO,
+                              ShowGroupbox=NO,
+                              ShowHeaders=YES,
+                              ShowRowHeaders=NO,
+                              ChartOptions=
+                                [CHART OPTIONS] (
+                                  Legend=LEGEND (Visible=YES),
+                                  Appearance=
+                                    [CHART APPEARANCE] (
+                                      Palette='Office'
+                                    )
+                                ),
+                              GaugeMaxValue=100,
+                              GaugeMinValue=0,
+                              GaugeStyleType='Default',
+                              GaugeFlipColors=NO,
+                              MapShowScale=NO,
+                              MapShowNavigationControls=NO,
+                              MapShowCoordinates=NO,
+                              MapShapeNumSteps=8,
+                              MapShapeNumColors=1,
+                              MapCircleCalculateSizeFromIndicator=YES,
+                              RangeChartType='Area',
+                              DataInputAllowInsert=NO,
+                              DataInputAllowDelete=NO
+                            )
+                        ),
+                        LAYOUT (
+                          ItemHeight='*',
+                          Items=(),
+                          ItemWidth='*',
+                          IsVisible=YES,
+                          Orientation='Terminal',
+                          DataPanel=
+                            PANEL (
+                              Guid='fqkhpllj',
+                              PanelQuery=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Mes', [Expression]=EXPRESSION ([Mes|gLaoTkvl]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES)
+                                  )
+                                ),
+                              Type='Table',
+                              LockQuery=NO,
+                              ShowFilters=NO,
+                              AllowMoveColumns=YES,
+                              IsSelectionRequired=NO,
+                              GridFormat='H4sIAAAAAAAACuVWTW_aQBC9V-p_sLY9RuEjyg0sUVJSJKARBtLrBk9g1PWOtTuGun-th_yk_oWuzYdIbBInQrn0aGvfm5k3b2b375-H1g82MgCDUuFvMN4KjEXSbdE4rwtPxrHCueT8z7XBsEuaDSnhf_zgea3YUAyGU0_LCNri00CmlPBsQyE8tDpRqi3YJCC8Winm8yGrQ_yEdAdYSZVASdgiydRCD0GFI_fVI7MrJ89b-Blbq7aDHKG4NpTEXUo0C79e7XSQRJE0aXnWjV2uRXCfIWo8VeeQY48sYrcxJ2nsjuXpFnItg3UULnQEWXFjXCzLQMWaXxIhIMN9fU_vKsC-z8Ifgq1UfJbndxOCEX7HzkGHqBeVgEMwC7hFXt4YWCElNm-78O-lsnASCbukkkjbd1Uwm6cxrctsfiLBp_rOOTO8kiwzo-bg7fgfs6eidReUyhU_LnAR-Q1k1liPXRzX6dQ6Yc4DNq7F1fPdkEyI1ATj8rVVDpyhxTsFfR3Cr6p6duacSHWLIS-FP5Kjk_hohrCuZIe3Kl9wBZlIslvLIWZL9oiD64fyPaUYwTqzsbPiDdmcxelBukr0w_V7hTZWMh1S6NLP99yXdDtWFZjy-r9mRWSGqVr9hr-7JLJgApYMb5zFAW0uV-FfNC7Omo3LagvN3dTCbzbrZ83L-kn8MyGW6n-_z4bjaQ8Vu9fLi24-Ch2g5VejD-38_KW6J3lUTKv2-BHn_wPYa7n82AkAAA',
+                              AllowPropagateFilters=YES,
+                              TableOptions=
+                                [TABLE OPTIONS] (
+                                  Appearance=APPEARANCE (),
+                                  SearchOptions=
+                                    [SEARCH PANEL] (
+                                      SearchPanelVisible=NO,
+                                      Text='Búsqueda...',
+                                      Width=240,
+                                      AllowColumnFiltering=YES,
+                                      AllowColumnSearch=YES
+                                    )
+                                ),
+                              TableCellMerge=NO,
+                              ShowGroupbox=NO,
+                              ShowHeaders=YES,
+                              ShowRowHeaders=NO,
+                              ChartOptions=
+                                [CHART OPTIONS] (
+                                  Legend=LEGEND (Visible=YES),
+                                  Appearance=[CHART APPEARANCE] ()
+                                ),
+                              GaugeMaxValue=100,
+                              GaugeMinValue=0,
+                              GaugeStyleType='Default',
+                              GaugeFlipColors=NO,
+                              MapShowScale=NO,
+                              MapShowNavigationControls=NO,
+                              MapShowCoordinates=NO,
+                              MapShapeNumSteps=8,
+                              MapShapeNumColors=1,
+                              MapCircleCalculateSizeFromIndicator=YES,
+                              RangeChartType='Area',
+                              DataInputAllowInsert=NO,
+                              DataInputAllowDelete=NO
+                            )
+                        )
+                      ),
+                      ItemWidth='0.3319*',
+                      IsVisible=YES,
+                      Orientation='Vertical'
+                    ),
+                    LAYOUT (
+                      ItemHeight='*',
+                      Items=(),
+                      ItemWidth='1.6681*',
+                      IsVisible=YES,
+                      Orientation='Terminal',
+                      DataPanel=
+                        PANEL (
+                          Guid='WcPxDCBG',
+                          PanelQuery=
+                            QUERY (
+                              [Columns]=(
+                                [QUERY COLUMN] (Alias='Comercial', [Expression]=EXPRESSION ([Comercial|uFGTPKze]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Estado oferta', [Expression]=EXPRESSION ([Estado oferta|XMRqZhAZ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Fecha', [Expression]=EXPRESSION ([Fecha|SZhySwzq]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Cod cliente', [Expression]=EXPRESSION ([Cod cliente|VJHeeEhJ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Cliente oferta', [Expression]=EXPRESSION ([Cliente oferta|eVJVGMKG]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Comisionista', [Expression]=EXPRESSION ([Comisionista|MlRkgFQt]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Código escandallo', [Expression]=EXPRESSION ([Código escandallo|EODPoKyl]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Referencia escandallo', [Expression]=EXPRESSION ([Referencia escandallo|QgYwbHBE]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Observación 1', [Expression]=EXPRESSION ([Observación 1|GFZdpqlE]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Oferta €', [Expression]=EXPRESSION ([Oferta €|slDvLRAX])),
+                                [QUERY COLUMN] (Alias='Importe €', [Expression]=EXPRESSION ([Importe €|TUxazBTt]))
+                              )
+                            ),
+                          Type='Table',
+                          ShowNavigation=YES,
+                          DrillItems=(
+                            [DRILL ITEM] (
+                              Guid='FyjNQD',
+                              Name='Comercial',
+                              Type='Dimensions',
+                              [Data]=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Comercial', [Expression]=EXPRESSION ([Comercial|uFGTPKze]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Estado oferta', [Expression]=EXPRESSION ([Estado oferta|XMRqZhAZ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Fecha', [Expression]=EXPRESSION ([Fecha|SZhySwzq]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Cod cliente', [Expression]=EXPRESSION ([Cod cliente|VJHeeEhJ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Cliente oferta', [Expression]=EXPRESSION ([Cliente oferta|eVJVGMKG]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Comisionista', [Expression]=EXPRESSION ([Comisionista|MlRkgFQt]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Código escandallo', [Expression]=EXPRESSION ([Código escandallo|EODPoKyl]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Referencia escandallo', [Expression]=EXPRESSION ([Referencia escandallo|QgYwbHBE]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Observación 1', [Expression]=EXPRESSION ([Observación 1|GFZdpqlE]), IsMeasure=NO, IsHierarchyLevel=YES)
+                                  )
+                                )
+                            ),
+                            [DRILL ITEM] (
+                              Guid='bRMLBG',
+                              Name='Familia',
+                              Type='Dimensions',
+                              [Data]=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Familia', [Expression]=EXPRESSION ([Familia|VnPAJBWg]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Estado oferta', [Expression]=EXPRESSION ([Estado oferta|XMRqZhAZ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Fecha', [Expression]=EXPRESSION ([Fecha|SZhySwzq]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Cod cliente', [Expression]=EXPRESSION ([Cod cliente|VJHeeEhJ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Cliente oferta', [Expression]=EXPRESSION ([Cliente oferta|eVJVGMKG]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Comisionista', [Expression]=EXPRESSION ([Comisionista|MlRkgFQt]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Código escandallo', [Expression]=EXPRESSION ([Código escandallo|EODPoKyl]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Referencia escandallo', [Expression]=EXPRESSION ([Referencia escandallo|QgYwbHBE]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Observación 1', [Expression]=EXPRESSION ([Observación 1|GFZdpqlE]), IsMeasure=NO, IsHierarchyLevel=YES)
+                                  )
+                                )
+                            ),
+                            [DRILL ITEM] (
+                              Guid='JBbhgi',
+                              Name='Cliente',
+                              Type='Dimensions',
+                              [Data]=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Cliente', [Expression]=EXPRESSION ([Cliente|ZbwrrLaC]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Estado oferta', [Expression]=EXPRESSION ([Estado oferta|XMRqZhAZ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Fecha', [Expression]=EXPRESSION ([Fecha|SZhySwzq]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Código escandallo', [Expression]=EXPRESSION ([Código escandallo|EODPoKyl]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Referencia escandallo', [Expression]=EXPRESSION ([Referencia escandallo|QgYwbHBE]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES)
+                                  )
+                                )
+                            ),
+                            [DRILL ITEM] (
+                              Guid='ksuQbp',
+                              Name='Zona',
+                              Type='Dimensions',
+                              [Data]=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Zona', [Expression]=EXPRESSION ([Zona|BNsXBjFR]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Comercial', [Expression]=EXPRESSION ([Comercial|uFGTPKze]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Fecha', [Expression]=EXPRESSION ([Fecha|SZhySwzq]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Estado oferta', [Expression]=EXPRESSION ([Estado oferta|XMRqZhAZ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Cod cliente', [Expression]=EXPRESSION ([Cod cliente|VJHeeEhJ]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Cliente', [Expression]=EXPRESSION ([Cliente|ZbwrrLaC]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Provincia', [Expression]=EXPRESSION ([Provincia|wjMBjMjM]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Código escandallo', [Expression]=EXPRESSION ([Código escandallo|EODPoKyl]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Referencia escandallo', [Expression]=EXPRESSION ([Referencia escandallo|QgYwbHBE]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES)
+                                  )
+                                )
+                            )
+                          ),
+                          CurrentDrillItemGuid='FyjNQD',
+                          LockQuery=NO,
+                          ShowFilters=NO,
+                          AllowMoveColumns=YES,
+                          IsSelectionRequired=NO,
+                          GridFormat='H4sIAAAAAAAACu2azW7bRhDH7wX6DgRTIC1gxJRkJXZgE1AkKxHgL0i2E7ToYU2OpUWWu8zu0q5a9NLn6S3HHnrIm_QF-gpZUrIih6tqSdPrEI1vJjjD_8z-OEvtzL9__b37RnI0Ao4Rwb8Cd66AC8zontt44rkOimOCAySzKy85DruMSs6I63_7jePsxpzFwOXUoSiCPffRAZqyRJ7PXLgOFjQhZM-VPAHX2dTafLfsVVm8hemNwRUiCWgem3dyJqCPgYRH6r8-4zfhZLpdP_W2u3ljssLFS86SuMsSKl3fM7t7lEQR4lO96taN1rzxQELU-Dw7yz4Wlnnb-TNPp7G6LZOb06oz6xA8phGkwQ3xeKIz0l3SCG9WIjwRkkVGyhfr6vrHl-o6cv75408jyx4WMUFTxUOEVNy_ec-73u_lA289XOCDKGZcwl0ibxpFvpb7kdIxoJdMz3zjfphfykSXRcAD9XIb5SFVe8xD4K7fEQHQENOxkeEh8DG8xnJywuEKs0Rk77vrXyIioJJEdhlJIipW5LF5P4lMK-mQXesKXKV5P6MXqjKFPSRRin3mYl7-V5Unwq67QEiW-NV5zlu-ApSuryPVc9SCT4VKz5OR5Gqli6qeuTpljJziWL956Q3PscAXBAY0hF9Mc9sJZILIaxzKiesfoSP7Bbk8DPtCopA5LCvHtQKiuPKKoGhYhqJlHYo-BJN6wWCuuCIImpYh2HqAbSJ0AoLVdybUCoWiuisComUZiLZ9IGZJreNeUUJ6RVhsWcbi6UN8TqqIGcWiblAUFV4REm3LSDyzj8SH9yEeMwdEgGiI1PLVC4xy8ivC46llPLat4zEEVYaBqh9zdSWkfAQVQfLMMiQ71iHpqcRyHAf4w3taKzYKC68IiW3LSDQ860wcXwjgVyhLrdOoFRUlpFfExY5tLuyfaBZsJnwxTBSTXdXxle1DTXUCbhuIok2WL4WIorqrQuL-jjTXNk_OMVwb8VF2CXKYZJ001YQOcdpSXtG2Wera3K1vo4k4fcIwIenp-zuVUG3uV5g1VoBzst8b9I4NPc17iab68w5eoODtWHXRaOj6j_r97XanvaU__9IWiTUv7_qD_bz54q31P1tePdgmtBfpx9hZ5OF-91Xnx06v80Dr3O976q_e62xQII7gOl17tfOcMJE5V9WOUZPasjxKMm_cH7JQqc1mNl5M551iA09ZddtPY0tX3rS2zfx3J4ypr82RRBJKbr0HbDYolH4utHY2tnbMdoiRGjtSvZGmt9Fse5VsD6dMIvJ1OOfrcM7_bDjncHjWx0Sq6Tv994n36fsuH09qN980Vt61eMCBOv-2OvZ2S586hacSYSq-_2kx4fHzhvMYEXj8g_1BCkNtd5FWtp1vJs1M2Vr8ljey_54TW4B4y-fu5u1RVP8jfZNRop4qAAA',
+                          AllowPropagateFilters=YES,
+                          TableOptions=
+                            [TABLE OPTIONS] (
+                              Appearance=APPEARANCE (),
+                              SearchOptions=
+                                [SEARCH PANEL] (
+                                  SearchPanelVisible=NO,
+                                  Text='Búsqueda...',
+                                  Width=240,
+                                  AllowColumnFiltering=YES,
+                                  AllowColumnSearch=YES
+                                )
+                            ),
+                          TableCellMerge=NO,
+                          ShowGroupbox=NO,
+                          ShowHeaders=YES,
+                          ShowRowHeaders=NO,
+                          ChartOptions=
+                            [CHART OPTIONS] (
+                              Legend=LEGEND (Visible=YES),
+                              Appearance=
+                                [CHART APPEARANCE] (
+                                  Palette='Office'
+                                )
+                            ),
+                          GaugeMaxValue=100,
+                          GaugeMinValue=0,
+                          GaugeStyleType='Default',
+                          GaugeFlipColors=NO,
+                          MapShowScale=NO,
+                          MapShowNavigationControls=NO,
+                          MapShowCoordinates=NO,
+                          MapShapeNumSteps=8,
+                          MapShapeNumColors=1,
+                          MapCircleCalculateSizeFromIndicator=YES,
+                          RangeChartType='Area',
+                          DataInputAllowInsert=NO,
+                          DataInputAllowDelete=NO
+                        )
+                    )
+                  ),
+                  ItemWidth='*',
+                  IsVisible=YES,
+                  Orientation='Horitzontal'
+                ),
+              IsVisible=NO,
+              PropagationMode='LeftToRight'
+            )
+          )
+        ),
+        [PANEL REPORT] (
+          Name='% Ofertas Cerradas',
+          IsVisible=NO,
+          ReportPredicates=(
+            [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('OXIxbPml'), LeftPart=[Año|RxKiQMMH], Operator='Equal', Expressions=(2025))
+          ),
+          Sheets=(
+            SHEET (
+              Guid='OXIxbPml',
+              Name='Hoja 1',
+              Layout=
+                LAYOUT (
+                  ItemHeight='*',
+                  Items=(
+                    LAYOUT (
+                      ItemHeight='*',
+                      Items=(
+                        LAYOUT (
+                          ItemHeight='*',
+                          Items=(),
+                          ItemWidth='*',
+                          IsVisible=YES,
+                          Orientation='Terminal',
+                          DataPanel=
+                            PANEL (
+                              Guid='VeTkcQde',
+                              PanelQuery=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Comercial', [Expression]=EXPRESSION ([Comercial|uFGTPKze]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Número de ofertas', [Expression]=EXPRESSION ([Número de ofertas|IzZezpDy])),
+                                    [QUERY COLUMN] (Alias='Número de ofertas cerradas (%)', [Expression]=EXPRESSION ([Número de ofertas cerradas (%)|dHmQrXkK]))
+                                  )
+                                ),
+                              Type='Table',
+                              LockQuery=NO,
+                              ShowFilters=NO,
+                              AllowMoveColumns=YES,
+                              IsSelectionRequired=NO,
+                              GridFormat='H4sIAAAAAAAACu1YXY_SQBR9N_E_NKMmmmyWFlwfDDRBVlYSQMLHrq-z9AITp3ObmSlYjX9MH3zwB_kXnJaPsEuR0rDIw75B03Pm3jPn3pnbPz9_lT9pSXsgGeXsK0hrClIxFBXinNvEokHA2ZDq5MmVZF4NhZbIifv0iWWVA4kBSB1ZgvpQIc-aNMJQX88piMWUCDmvEC1DIFYhFfN8ndUgPkO0BEwpDyFl2U2SgYI6A-61zb86ymU6SdzEjdnKhSVkC8WVxDCoYSg0ce1sb_dC36cySo-6tIx1E9zQ4Dv31VnnWCE3sYs1-1FgXkvC3Yg1DVblbCx8iJPrsvEkDZT2KCXw4kECD5VGP1Pkq30lbvv3Dx8kWh5YODKvUJWJ4ZKpgNPI-MKnJv9v9tu2_T2_AKVTEsAagpTUMz9evniVU41ONjV21kQPpW6IEabXg_Mw9bCmTg2NOENT-Jl0iKP9KD2QxK2qIQiPiXEmYAvkGG6YnnQkTBmGKukFxB1RruAgQtaQh75QR-0rcZPt4iyt9x1U9oG4NU3Lu6SaxpWQUCxOhm2di-OsBpwnum-XeRP5AWi8vZY265j9jpSR57ynpdnofaOeU_UReZ8F6edaOvCaKXbLoSE8-JJV2-pQh5TfME9PTMnT9vF7dX4z5GzRp-KKnOEfyB7Oke1ROgF77H-Ana5X9s_lQMYpPphxdp5V1wxmmWyUd1c23JRcXMw84LH4dr_llLTX5btP0YZZbH9j4Q6qhMXogSLL6uv3_sVNqoWeCT-5YL-LFkd3BqYk__dxErGZsmY_569NEBXInqYactZwE-dTHXEvXjtnjvMm26XJjIjGbkX7rHhhH8Q_fdSUPw5S_3uOeBykTmiQanUHdca1-Yqys7lthTaZ0nuj17vbv6e5FcmdZMqFux-T3L_eralgYBIAAA',
+                              AllowPropagateFilters=YES,
+                              TableOptions=
+                                [TABLE OPTIONS] (
+                                  Appearance=APPEARANCE (),
+                                  SearchOptions=
+                                    [SEARCH PANEL] (
+                                      SearchPanelVisible=NO,
+                                      Text='Búsqueda...',
+                                      Width=240,
+                                      AllowColumnFiltering=YES,
+                                      AllowColumnSearch=YES
+                                    )
+                                ),
+                              TableCellMerge=NO,
+                              ShowGroupbox=NO,
+                              ShowHeaders=YES,
+                              ShowRowHeaders=NO,
+                              ChartOptions=
+                                [CHART OPTIONS] (
+                                  Legend=LEGEND (Visible=YES),
+                                  Appearance=
+                                    [CHART APPEARANCE] (
+                                      Palette='Office'
+                                    )
+                                ),
+                              GaugeMaxValue=100,
+                              GaugeMinValue=0,
+                              GaugeStyleType='Default',
+                              GaugeFlipColors=NO,
+                              MapShowScale=NO,
+                              MapShowNavigationControls=NO,
+                              MapShowCoordinates=NO,
+                              MapShapeNumSteps=8,
+                              MapShapeNumColors=1,
+                              MapCircleCalculateSizeFromIndicator=YES,
+                              RangeChartType='Area',
+                              DataInputAllowInsert=NO,
+                              DataInputAllowDelete=NO
+                            )
+                        ),
+                        LAYOUT (
+                          ItemHeight='*',
+                          Items=(),
+                          ItemWidth='*',
+                          IsVisible=YES,
+                          Orientation='Terminal',
+                          DataPanel=
+                            PANEL (
+                              Guid='fzHIYlHl',
+                              PanelQuery=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Semana', [Expression]=EXPRESSION ([Semana|noKCCAew]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Número de ofertas', [Expression]=EXPRESSION ([Número de ofertas|IzZezpDy])),
+                                    [QUERY COLUMN] (Alias='Número de ofertas cerradas', [Expression]=EXPRESSION ([Número de ofertas cerradas|rlaTgOpM])),
+                                    [QUERY COLUMN] (Alias='Número de ofertas cerradas (%)', [Expression]=EXPRESSION ([Número de ofertas cerradas (%)|dHmQrXkK]))
+                                  )
+                                ),
+                              Type='Table',
+                              LockQuery=NO,
+                              ShowFilters=NO,
+                              AllowMoveColumns=YES,
+                              IsSelectionRequired=NO,
+                              GridFormat='H4sIAAAAAAAACu1YzW7TQBC-I_EO1gISSFXjpOkFJZZCSkulNlT5K9dtPE1WrHes3XWDQbwYHDjwQLwCa-dHaePQjeWmRurR1n6zM99-OzM7f37-anzSkvZAMsrZV5DODUjFUDRJdd8lDg1DzkZUp39OJPPbKLRETrznzxynEUoMQerYETSAJnlxRmOM9HBmgjhMiYjzJtEyAuJUMjEvV60axGeIF4AbyiPI2HbdyEDBMQPud8zXMcpFOKnfxEusNSoLyAYTJxKjsI2R0MRz7Vb3oiCgMs72ur7wdR18qiGo3mVn1cYSuY6d79mPQ7MsdXfN1yxYi7OxCCAJrsvGkyxQ1q8Mx2uFOB4pjYGV58tzJV7n948AJDo-OHhtllBlZeGIqZDT2OgioCb-b-7bjvs9PwEHZSLAGYGU1H8cJuqlZMJ5_epNTjYu7Ni4Nzv0UOpTcY3ZmaH6MJlhhZ0eBFRQKxISVz9KHyTxWmoEwmdibAU8BzmGS6YnFxJuGEYqTYnEu6ZcQSEstpFHgVA7Ta9JreniNKsEFMf5QFyZxO0fUU2TO5Di59UxG9DiHKdt4DwlfTPH68gPQJOzdbTZxxx2rAw3-z0tzSlv5fLMTh-R91mYXdizgUOm2BWHU-HDF1tWWyMdUX7JfD0xN512dl-s8ssgZ40qiyRyul-QPKo7lsdBCeSxXQUvr062i6MgwdR2LJh6mQRj3ej8B6KxjqUg4Rw8mHDubWuGDKZWMsp7KmtqShtc84L2WfIe3tBQuav03TXRgWkifyPhC1SpFcMHCpvdV1_K8477HH3jfvokfRfPuzwLS2n875MgEjHZRj-z354gKpA9TTXkvMNnOJuDEO-wXt2rVQ_t-mszVDF5qubu1Q7dQvTTR0350-jhsd-bT6OHp9FDCUcP593BMePaTGDvTfMboWdM6a3Rq3n-3_OPpZFbwTQqtwfR3l--_gtWnBYAAA',
+                              AllowPropagateFilters=YES,
+                              TableOptions=
+                                [TABLE OPTIONS] (
+                                  Appearance=APPEARANCE (),
+                                  SearchOptions=
+                                    [SEARCH PANEL] (
+                                      SearchPanelVisible=NO,
+                                      Text='Búsqueda...',
+                                      Width=240,
+                                      AllowColumnFiltering=YES,
+                                      AllowColumnSearch=YES
+                                    )
+                                ),
+                              TableCellMerge=NO,
+                              ShowGroupbox=NO,
+                              ShowHeaders=YES,
+                              ShowRowHeaders=NO,
+                              ChartOptions=
+                                [CHART OPTIONS] (
+                                  Legend=LEGEND (Visible=YES),
+                                  Appearance=[CHART APPEARANCE] ()
+                                ),
+                              GaugeMaxValue=100,
+                              GaugeMinValue=0,
+                              GaugeStyleType='Default',
+                              GaugeFlipColors=NO,
+                              MapShowScale=NO,
+                              MapShowNavigationControls=NO,
+                              MapShowCoordinates=NO,
+                              MapShapeNumSteps=8,
+                              MapShapeNumColors=1,
+                              MapCircleCalculateSizeFromIndicator=YES,
+                              RangeChartType='Area',
+                              DataInputAllowInsert=NO,
+                              DataInputAllowDelete=NO
+                            )
+                        )
+                      ),
+                      ItemWidth='*',
+                      IsVisible=YES,
+                      Orientation='Vertical'
+                    ),
+                    LAYOUT (
+                      ItemHeight='*',
+                      Items=(),
+                      ItemWidth='*',
+                      IsVisible=YES,
+                      Orientation='Terminal',
+                      DataPanel=
+                        PANEL (
+                          Guid='YQUJnzhh',
+                          PanelQuery=
+                            QUERY (
+                              [Columns]=(
+                                [QUERY COLUMN] (Alias='Cliente', [Expression]=EXPRESSION ([Cliente|ZbwrrLaC]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Número de ofertas', [Expression]=EXPRESSION ([Número de ofertas|IzZezpDy])),
+                                [QUERY COLUMN] (Alias='Número de ofertas cerradas', [Expression]=EXPRESSION ([Número de ofertas cerradas|rlaTgOpM])),
+                                [QUERY COLUMN] (Alias='Número de ofertas cerradas (%)', [Expression]=EXPRESSION ([Número de ofertas cerradas (%)|dHmQrXkK]))
+                              )
+                            ),
+                          Type='Table',
+                          LockQuery=NO,
+                          ShowFilters=NO,
+                          AllowMoveColumns=YES,
+                          IsSelectionRequired=NO,
+                          GridFormat='H4sIAAAAAAAACu1YXW_TMBR9R-I_RAYkkKYt7boX1EUqHRuTujL1Y-PVa-5aC8c3sp2VgPhj8MADP4i_gJO2U7ek1I2yLkh7bJVzfO_x8b32_fPzV_OTlrQPklHOvoJ0bkAqhuKQ1HZd4tAw5GxEdfrPiWR-G4WWyIn3_JnjNEOJIUgdO4IGcEhedGiMkb6YURCHKRFxfki0jIA4e7mYl8usBvEZ4gXghvIIcpbNkgwVHDPgftf8Oka5SCeNm3gJW3NvAVlBcSIxCtsYCU081-7rfhQEVMb5UTcWsWbBpxqC2n11ljlukVnsfM1BHJrP0nAzsebBWpyNRQBJcj02nuSB8v7KCbxeSuCR0hhYRX67r8Tr_v4RgETHBwevzSdUWTEcMRVyGhtfBNTk_81923W_Fxdgv0oCOCOQkvqPo0Sjkko4r1-9KajGuZ0aa6tDH6U-FdeYXxlqD1MZltRpc2aOerbmrYr1o_RBEq-lRiB8JsZWwDOQY7hkenIu4YZhpNKaSLxryhWUImMbeRQItdX6mjSbHk7zekCJog_FlSnd_hHVNDkFKcG8P-YDWpzjtA2cp6qvFjmL_AA02VxHm3XMbsfKiLPb19Js82Yxz4gGiHzAwvzeng-8YIpdcTgVPnyx1bU10hHll8zXE3PYaXf7_aq4EQq2qap4omD4JdmjtmV77FfAHps18er6ZLM8SjJMfcuGaVTJMNZ3nf_ANNa5lGSc_QczztqLzQWDqZWNiu5Kxk3pHdc8on2WPIlXXKncZfnuU3RhmtjfWPgcVcpi9EBhs_ryY3l-6T5D34SfvkrfxfN7ngVTmv_7JInETLbZz_jbE0QFsq-phoJnuIOzUQjxDhq1nYO6Xe3pm7mKqVN1d6d-4JbinwFqyp-mD4_95HyaPjxNHyo4fTjrDY8Z12YIu7bMr4R2mNIbo5fr_L9HILckd5Jp7t2dRXt_AUFKFemfFgAA',
+                          AllowPropagateFilters=YES,
+                          TableOptions=
+                            [TABLE OPTIONS] (
+                              Appearance=APPEARANCE (),
+                              SearchOptions=
+                                [SEARCH PANEL] (
+                                  SearchPanelVisible=NO,
+                                  Text='Búsqueda...',
+                                  Width=240,
+                                  AllowColumnFiltering=YES,
+                                  AllowColumnSearch=YES
+                                )
+                            ),
+                          TableCellMerge=NO,
+                          ShowGroupbox=NO,
+                          ShowHeaders=YES,
+                          ShowRowHeaders=NO,
+                          ChartOptions=
+                            [CHART OPTIONS] (
+                              Legend=LEGEND (Visible=YES),
+                              Appearance=
+                                [CHART APPEARANCE] (
+                                  Palette='Office'
+                                )
+                            ),
+                          GaugeMaxValue=100,
+                          GaugeMinValue=0,
+                          GaugeStyleType='Default',
+                          GaugeFlipColors=NO,
+                          MapShowScale=NO,
+                          MapShowNavigationControls=NO,
+                          MapShowCoordinates=NO,
+                          MapShapeNumSteps=8,
+                          MapShapeNumColors=1,
+                          MapCircleCalculateSizeFromIndicator=YES,
+                          RangeChartType='Area',
+                          DataInputAllowInsert=NO,
+                          DataInputAllowDelete=NO
+                        )
+                    )
+                  ),
+                  ItemWidth='*',
+                  IsVisible=YES,
+                  Orientation='Horitzontal'
+                ),
+              IsVisible=YES,
+              PropagationMode='LeftToRight'
+            )
+          )
+        )
+      )
+    ),
+    [REPORT CONTAINER] (
+      Name='Compras',
+      Items=(
+        [PANEL REPORT] (
+          Name='Compras a Proveedores',
+          IsVisible=YES,
+          ReportPredicates=(
+            [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('USerLjLX'), EditView='SimpleSelection', LeftPart=[Año|RxKiQMMH], Operator='Equal', Expressions=(SELECT_ALL)),
+            [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('xtRDOeDJ'), LeftPart=[Estado|VceLXHvD], Operator='Equal', Expressions=('Facturado')),
+            [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('xtRDOeDJ'), LeftPart=[Proveedor|mJmemGJD], Operator='Equal', Expressions=('THRACE NONWOVENS GEOSYNTHETI')),
+            [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('zZLkwKIu'), LeftPart=[Año|RxKiQMMH], Operator='Equal', Expressions=(2021))
+          ),
+          Sheets=(
+            SHEET (
+              Guid='USerLjLX',
+              Name='Compras Globales',
+              Layout=
+                LAYOUT (
+                  ItemHeight='*',
+                  Items=(
+                    LAYOUT (
+                      ItemHeight='*',
+                      Items=(),
+                      ItemWidth='*',
+                      IsVisible=YES,
+                      Orientation='Terminal',
+                      DataPanel=
+                        PANEL (
+                          Guid='uhTthkGe',
+                          PanelQuery=
+                            QUERY (
+                              [Columns]=(
+                                [QUERY COLUMN] (Alias='Proveedor', [Expression]=EXPRESSION ([Proveedor|mJmemGJD]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Compras €', [Expression]=EXPRESSION ([Compras €|GhcpvsJk]), [Order]=0, OrderMode='Desc'),
+                                [QUERY COLUMN] (Alias='Cantidad comprada', [Expression]=EXPRESSION ([Cantidad comprada|NfXTSTjW]))
+                              )
+                            ),
+                          Type='Table',
+                          LockQuery=NO,
+                          ShowFilters=NO,
+                          AllowMoveColumns=YES,
+                          IsSelectionRequired=NO,
+                          GridFormat='H4sIAAAAAAAACu1YzW7TQBC-I_EOluFYNXYCHFBiqTikREpDlL9y3WanyYr1jrW7TnARF56HN-DAu_ACvAJr50dp4xDHpKESPdry9-03s9_OzvjX9x_VD1qSHkhGOLsBaU1BKoaiZrunjm2RMORsRHT65lwy6qPQErntPX1iWdVQYghSx5YgAdTsZy0SY6SHcwrbYkpEnNdsLSOwrVIm5vk6q0F8hHgJmBIeQcaymyQDBQ0GnLbNUwPlMpxUt-0lbNXSErKF4lxiFPoYCW17Tr6ve1EQEBlnq64stW6CmxoC92521jlWyE3sYs1-HJrPUrkbWrNgZ5yNRQBJcF02nmSBsl5lCC8fRHikNAa5lK_2NQk3CCVR1s-v33JB60yFnMTGEAExgX92XvvOl-KRV_5h5ERoRgm1RmkKKCkYf7ucK_6d9u-h1E1xjdnWd-_H-n_hhETve0lB2l4d1AgEZWKcC3kBcgyXTE86EqYMI5WefNu7JlzBQXLpI48CoY5aRZKS2sVZVqXbkfmOxCkARZkLOBBXpkTROtEksX9KsbgHttUpjjMfOE_zvj3Nm8h3QJL9tbRZx2x4rEx6Tntamo3eV_Wcqo_I-yzMvsWygUOm2BWHpqDwKW9uz0Y6IvySUT2xvTZpH78yFzfDvsfwodhhX90HMoR7ZENUjm-IQvfUg7FFIfUHMkf53syx8wYaMpjlskrRfdhwTNqRmJ6esqRD33L3Oevpu0vRhllicWPTDqqUxeQDRZ7V13v3RYt0gdTIT5vkN_HiQs7BlMb_NgkisU_e6Of8_gRRgexpoqHgOW3hfDIzleWFUzlx3Vf5miEz5xm_lZ2T8kvnIAbqoyb8cRp6nIb-z2noojtoMK7NX4-dhWwrtMWU3hu9Xsn-PJKtSG4FUy3d_vnj_QbiJ7wREBIAAA',
+                          AllowPropagateFilters=YES,
+                          TableOptions=
+                            [TABLE OPTIONS] (
+                              Appearance=APPEARANCE (),
+                              SearchOptions=
+                                [SEARCH PANEL] (
+                                  SearchPanelVisible=NO,
+                                  Text='Búsqueda...',
+                                  Width=240,
+                                  AllowColumnFiltering=YES,
+                                  AllowColumnSearch=YES
+                                )
+                            ),
+                          TableCellMerge=NO,
+                          ShowGroupbox=NO,
+                          ShowHeaders=YES,
+                          ShowRowHeaders=NO,
+                          ChartOptions=
+                            [CHART OPTIONS] (
+                              Legend=LEGEND (Visible=YES),
+                              Appearance=
+                                [CHART APPEARANCE] (
+                                  Palette='Office'
+                                )
+                            ),
+                          GaugeMaxValue=100,
+                          GaugeMinValue=0,
+                          GaugeStyleType='Default',
+                          GaugeFlipColors=NO,
+                          MapShowScale=NO,
+                          MapShowNavigationControls=NO,
+                          MapShowCoordinates=NO,
+                          MapShapeNumSteps=8,
+                          MapShapeNumColors=1,
+                          MapCircleCalculateSizeFromIndicator=YES,
+                          RangeChartType='Area',
+                          DataInputAllowInsert=NO,
+                          DataInputAllowDelete=NO
+                        )
+                    ),
+                    LAYOUT (
+                      ItemHeight='*',
+                      Items=(
+                        LAYOUT (
+                          ItemHeight='*',
+                          Items=(),
+                          ItemWidth='*',
+                          IsVisible=YES,
+                          Orientation='Terminal',
+                          DataPanel=
+                            PANEL (
+                              Guid='sxiNVqHl',
+                              PanelQuery=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Año', [Expression]=EXPRESSION ([Año|RxKiQMMH]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Compras €', [Expression]=EXPRESSION ([Compras €|GhcpvsJk])),
+                                    [QUERY COLUMN] (Alias='Cantidad comprada', [Expression]=EXPRESSION ([Cantidad comprada|NfXTSTjW]))
+                                  )
+                                ),
+                              Type='Table',
+                              LockQuery=NO,
+                              ShowFilters=NO,
+                              AllowMoveColumns=YES,
+                              IsSelectionRequired=NO,
+                              GridFormat='H4sIAAAAAAAACu1Yy27aQBTdV-o_WG6XUbBBVFUFligpKRLQiFe6neAbGHU815oZQ52qm35PN1130UX_pD_QX-iMeYgEU4xFaKRmicW5c-6Z4_vw7-8_Ku-VID0QlDB6A8KagpAUedV2Tx3bImHI6Iio5Mm5oH4duRLIbO_pE8uqhAJDECq2OAmgaj9rkRgjNZyHsC0qecRY1VYiAtsqpGKer0fViA8QLwFTwiJIOXYzyEBCgwLzO_pXA8UynYS37ZlolcISsiXEucAorGPEle052f7di4KAiDiddWnJdRPcVBC4d9VZj7FCbmIXZ_bjUP8tobvBNQ1WY3TMAzDJdel4kgZKe5RCvHgQ4pFUGGRivrpXk24QCiKtX1--ZoKeURkyEmtDBEQn_sl5VXc-58-89A8zJ1xRn_jWKJHAJznz7xQz5b_T_j0UqsmvMd367v1Yf02P2s9vmEkCQ_Sd8EFojBwB9ykfZwK2QYzhkqrJhYApxUgmb7ztXRMm4SAa1pFFAZdHrR6mlHZxllbhDqX4gF_pquSfEUWM4xP0ovRvK00MZ3VgLJF8u8KbyLdAzM1aSp-jrzqWWpnTnhL6jvcgPI_SR2R9Gqb3rHTgkEp6xaDJffiYVdHaSEWEXVJfTWyvQzrHr8P5LbBv-X0oTtiX94EM4R7ZEKXjGyJXV3owtsjF_kDmKN6bOXb2nSGFWSar5L2HDcck84ee4H1q5vEtHc9Zl-9uiA7MjMW1TS9QJlG0HsiznL4-qS8Gojb6pqOZkfh1vGjDGSIl-b8xSRj7ZM1-Hr8-QZQgeoooyPmetnC-h9le-eWLE9ctZxuA9FKn7VZ0Topl5yD-6aMi7HH1eVx9_s_Vp90dNChT-hPHzjq2FdqiUu2NXi9kf9-_VkFuJVMp3P7S4_0B_jBa8_0RAAA',
+                              AllowPropagateFilters=YES,
+                              TableOptions=
+                                [TABLE OPTIONS] (
+                                  Appearance=APPEARANCE (),
+                                  SearchOptions=
+                                    [SEARCH PANEL] (
+                                      SearchPanelVisible=NO,
+                                      Text='Búsqueda...',
+                                      Width=240,
+                                      AllowColumnFiltering=YES,
+                                      AllowColumnSearch=YES
+                                    )
+                                ),
+                              TableCellMerge=NO,
+                              ShowGroupbox=NO,
+                              ShowHeaders=YES,
+                              ShowRowHeaders=NO,
+                              ChartOptions=
+                                [CHART OPTIONS] (
+                                  Legend=LEGEND (Visible=YES),
+                                  Appearance=[CHART APPEARANCE] ()
+                                ),
+                              GaugeMaxValue=100,
+                              GaugeMinValue=0,
+                              GaugeStyleType='Default',
+                              GaugeFlipColors=NO,
+                              MapShowScale=NO,
+                              MapShowNavigationControls=NO,
+                              MapShowCoordinates=NO,
+                              MapShapeNumSteps=8,
+                              MapShapeNumColors=1,
+                              MapCircleCalculateSizeFromIndicator=YES,
+                              RangeChartType='Area',
+                              DataInputAllowInsert=NO,
+                              DataInputAllowDelete=NO
+                            )
+                        ),
+                        LAYOUT (
+                          ItemHeight='*',
+                          Items=(),
+                          ItemWidth='*',
+                          IsVisible=YES,
+                          Orientation='Terminal',
+                          DataPanel=
+                            PANEL (
+                              Guid='EtlFWTsL',
+                              PanelQuery=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Año', [Expression]=EXPRESSION ([Año|RxKiQMMH]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Compras €', [Expression]=EXPRESSION ([Compras €|GhcpvsJk]))
+                                  )
+                                ),
+                              Type='Bars',
+                              LockQuery=NO,
+                              ShowFilters=NO,
+                              AllowMoveColumns=YES,
+                              IsSelectionRequired=NO,
+                              GridFormat='H4sIAAAAAAAACuWUwU7CQBCG7ya-w2b1LHAvTUwTCAl6oEC8bmSAibs7zXQWU1_Ng4_kK1jQItAicPbYZr9__n_6dz_fP6InYZMCo7H4BqxWwDmS7-rOXVsrk2UWn41s3vQZZwl5YbI6vr5SKsqYMmAplDcOuvpmaAoKMv2W0ApzH6ztauEAWrUamdtd1ZJ4gaICVsYGaBhbF5nk0EOws8fyqUdcxdn41vFaLWpVyBGJPlPIEgpedNw-73QanDNcNLvuVF7r8EDAdQ63s6uxJevsz8xxkZXHNnZrXpuwe4sL72AdboSLZRNUz3xqCSmxDPycmhfQrr54HUzIBufzi7kpwutZezsEy044I2WJZriuxOnJxzwnS6IcOBUj8JeT3winljgmMfa_N-lhNOmhlfLeuLgTW3SIuVxM7_7HZ9Z5L0zU2r8-4y-3o_-TUgUAAA',
+                              AllowPropagateFilters=YES,
+                              TableOptions=
+                                [TABLE OPTIONS] (
+                                  Appearance=APPEARANCE (),
+                                  SearchOptions=
+                                    [SEARCH PANEL] (
+                                      SearchPanelVisible=NO,
+                                      Text='Búsqueda...',
+                                      Width=240,
+                                      AllowColumnFiltering=YES,
+                                      AllowColumnSearch=YES
+                                    )
+                                ),
+                              TableCellMerge=NO,
+                              ShowGroupbox=NO,
+                              ShowHeaders=YES,
+                              ShowRowHeaders=NO,
+                              ChartOptions=
+                                [CHART OPTIONS] (
+                                  Legend=LEGEND (Visible=YES),
+                                  Appearance=[CHART APPEARANCE] ()
+                                ),
+                              GaugeMaxValue=100,
+                              GaugeMinValue=0,
+                              GaugeStyleType='Default',
+                              GaugeFlipColors=NO,
+                              MapShowScale=NO,
+                              MapShowNavigationControls=NO,
+                              MapShowCoordinates=NO,
+                              MapShapeNumSteps=8,
+                              MapShapeNumColors=1,
+                              MapCircleCalculateSizeFromIndicator=YES,
+                              RangeChartType='Area',
+                              DataInputAllowInsert=NO,
+                              DataInputAllowDelete=NO
+                            )
+                        )
+                      ),
+                      ItemWidth='*',
+                      IsVisible=YES,
+                      Orientation='Horitzontal'
+                    )
+                  ),
+                  ItemWidth='*',
+                  IsVisible=YES,
+                  Orientation='Vertical'
+                ),
+              IsVisible=YES,
+              PropagationMode='LeftToRight'
+            ),
+            SHEET (
+              Guid='xtRDOeDJ',
+              Name='Compras Proveedor',
+              Layout=
+                LAYOUT (
+                  ItemHeight='*',
+                  Items=(
+                    LAYOUT (
+                      ItemHeight='*',
+                      Items=(
+                        LAYOUT (
+                          ItemHeight='*',
+                          Items=(),
+                          ItemWidth='*',
+                          IsVisible=YES,
+                          Orientation='Terminal',
+                          DataPanel=
+                            PANEL (
+                              Guid='QvDMJOlv',
+                              PanelQuery=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Año', [Expression]=EXPRESSION ([Año|RxKiQMMH]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Compras €', [Expression]=EXPRESSION ([Compras €|GhcpvsJk])),
+                                    [QUERY COLUMN] (Alias='Cantidad comprada', [Expression]=EXPRESSION ([Cantidad comprada|NfXTSTjW]))
+                                  )
+                                ),
+                              Type='Table',
+                              LockQuery=NO,
+                              ShowFilters=NO,
+                              AllowMoveColumns=YES,
+                              IsSelectionRequired=NO,
+                              GridFormat='H4sIAAAAAAAACu1Yy27TQBTdI_EPlmFZNU4CLFASKbikREpClVfZTuPbZMR4rjUzTjCIDd_DhjULFvwJP8AvMOM85NYOcaw0VKLLWDl3zj1zfB_-_f1H7Z0SZACCEkY_grDmICRFXrfLp45tkSBgdEJU_ORcUM9FrgQyu_H4kWXVAoEBCBVZnPhQt590SIShGi9D2BaVPGSsbisRgm2VMjFPk1E14j1Ea8CcsBAyjk0HGUloUWBeT_9qoVinE_O2GyZarbSGbAlxLjAMXAy5shtOvn8PQt8nIspmXV1zTYPbCvzybXWSMTbINHZ15jAK9N9iuimuWbAmo1Pug0muT6ezLFDWowzilYMQD6VCPxfzzb2adP1AEGn9-vI1F_SMyoCRSBvCJzrxT85L1_lcPPPqP8yccEU94lmTWAKPFMy_V8mV_077D1CoNr_GbOuX78b6CT2aP79hLgkM0bfCA6ExcgLco3yaC9gFMYVLqmYXAuYUQxm_8XbjmjAJB9HQRRb6XB61ephS2sdFVoU7lOIjfqWrkndGFDGOj9Gr0r-tNDFcuMBYLPl2hdPIN0DMzVpKn6OvOpJamdOBEvqO9yC8jDJEZEMaZPesbOCYSnrFoM09-JBX0eZEhYRdUk_N7EaP9I5fh4tbYN_ye1-csC_vAxmifGRDVI9viEJd6d7YohD7A5mjcmfm2Nl3xhQWuaxS9B5SjonnDz3Be9TM41s6npOU73aIHiyMxbVNL1DGUbQeyPOcnpzUVwNRFz3T0cxI_CpateEckeL8X5skjH3yZr-M784QJYiBIgoKvqcdXO5hurI8c6on5fKLfBOQ3uq03yrOSeW5cxADDVER9rD7POw-_-fu0-2PWpQp_Y1jZyHbCu1QqfZGJyvZ3xewTZAbydRKNz_1NP4A_AUW0P4RAAA',
+                              AllowPropagateFilters=YES,
+                              TableOptions=
+                                [TABLE OPTIONS] (
+                                  Appearance=APPEARANCE (),
+                                  SearchOptions=
+                                    [SEARCH PANEL] (
+                                      SearchPanelVisible=NO,
+                                      Text='Búsqueda...',
+                                      Width=240,
+                                      AllowColumnFiltering=YES,
+                                      AllowColumnSearch=YES
+                                    )
+                                ),
+                              TableCellMerge=NO,
+                              ShowGroupbox=NO,
+                              ShowHeaders=YES,
+                              ShowRowHeaders=NO,
+                              ChartOptions=
+                                [CHART OPTIONS] (
+                                  Legend=LEGEND (Visible=YES),
+                                  Appearance=
+                                    [CHART APPEARANCE] (
+                                      Palette='Office'
+                                    )
+                                ),
+                              GaugeMaxValue=100,
+                              GaugeMinValue=0,
+                              GaugeStyleType='Default',
+                              GaugeFlipColors=NO,
+                              MapShowScale=NO,
+                              MapShowNavigationControls=NO,
+                              MapShowCoordinates=NO,
+                              MapShapeNumSteps=8,
+                              MapShapeNumColors=1,
+                              MapCircleCalculateSizeFromIndicator=YES,
+                              RangeChartType='Area',
+                              DataInputAllowInsert=NO,
+                              DataInputAllowDelete=NO
+                            )
+                        ),
+                        LAYOUT (
+                          ItemHeight='*',
+                          Items=(),
+                          ItemWidth='*',
+                          IsVisible=YES,
+                          Orientation='Terminal',
+                          DataPanel=
+                            PANEL (
+                              Guid='FOYtiRzC',
+                              PanelQuery=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Número de pedido', [Expression]=EXPRESSION ([Número de pedido|IjnhlMzi]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Fecha', [Expression]=EXPRESSION ([Fecha|SZhySwzq]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Proveedor', [Expression]=EXPRESSION ([Proveedor|mJmemGJD]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Código escandallo', [Expression]=EXPRESSION ([Código escandallo|EODPoKyl]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Cantidad comprada', [Expression]=EXPRESSION ([Cantidad comprada|NfXTSTjW])),
+                                    [QUERY COLUMN] (Alias='Precio €', [Expression]=EXPRESSION ([Precio €|jYqgIPKq])),
+                                    [QUERY COLUMN] (Alias='Compras €', [Expression]=EXPRESSION ([Compras €|GhcpvsJk]))
+                                  )
+                                ),
+                              Type='Table',
+                              LockQuery=NO,
+                              ShowFilters=NO,
+                              AllowMoveColumns=YES,
+                              IsSelectionRequired=NO,
+                              GridFormat='H4sIAAAAAAAACu2ZwU7bQBCG75X6DpbbYwVOSABVIVIaGooEKSIBel28Q7LqesfaXSd1q176PL1xaw898CZ9gb5C106CAnGKYxxDVI6xPLP_zHy7G8_8-fmr9kFL0gHJCGefQVoDkIqh2LFLa45tEd_nzCU6frInGW2i0BK5XX_-zLJqvkQfpA4tQTzYsV8ckBADfTpyYVtMiYDzHVvLAGxrPdHm5bRXY_ERwonBgPAAEpaddXKioMWA07b51UI5CSfWbdcjb7X1ickcF3sSA7-JgdB23Un3difwPCLDZNWVidZZ430NXul2dqZ9XFvO2o7X7Ia-eS2WO6M1yazBWU94EAV3zHr9JKOkRwnCy7kID5RGL5Xy67oaKyI0o4RaLnq-JJSkcrDLlM9JaLDwiAn_i_O6Xf6aPf6Nh4v_SILL0Pr97XvGwJv3CbzygIWP663uE7mTKvI7930Hpd4XF5i850vL2fNTmWhf_fBAokXB8oEyiqnyEal-LylIu95QLgjKRC-V4SHIHpwx3TfoDRgGKj737PoF4QpySWgTeeAJlZzP7eXkM7pQjnGYdM4vJf0n4twc1HSXaBLtgtjV-DZMNmhwjsMmcB7nf366Zy3fAYnKbGmzjql7qEya1jpamoJnVT9y2UXkXeYn3-nJhqdMsXMO-4LCp7S5brg6IPyMUd03ekm7-HsqOxwtcPtkpYBIrzgnCEoFQ7BROARHEgcAFOVKgbCY6pxgKBcMQ6VwGJpXl5T10ALlEkGJqd1KUZFRfk54bBSMR7VwPHZNYiXzXXZ1KVYKjIWF54REpWAkNos_MTJ94j4WLrKpzwmOasFwbD3Af4uFvv8fCxULys4Jh82Ccdgu_qxYsCvyWHhYVHdOQGwtDYg7mxynDIap8MhagRlK4s6XaZpTFrXA57RXnOn03XbRhmGEtUHzCFXsxeQDRZrVp5vj41bcIVIjP-5CvwnHPZ8UnuL430ZBROCkjX7kv9lHVCA7mmjIuDcPcDT6MJfLdvVVuZTuiumYOYr5uik7r8pVJxd-uqgJf5o2PE0bnqYN_9W04fD4pMW4NuPUOw_wuaYHTOmFradP8H-PPK6d3Aimtn5zqlz_C5LWynRpHgAA',
+                              AllowPropagateFilters=YES,
+                              TableOptions=
+                                [TABLE OPTIONS] (
+                                  Appearance=APPEARANCE (),
+                                  SearchOptions=
+                                    [SEARCH PANEL] (
+                                      SearchPanelVisible=NO,
+                                      Text='Búsqueda...',
+                                      Width=240,
+                                      AllowColumnFiltering=YES,
+                                      AllowColumnSearch=YES
+                                    )
+                                ),
+                              TableCellMerge=NO,
+                              ShowGroupbox=NO,
+                              ShowHeaders=YES,
+                              ShowRowHeaders=NO,
+                              ChartOptions=
+                                [CHART OPTIONS] (
+                                  Legend=LEGEND (Visible=YES),
+                                  Appearance=[CHART APPEARANCE] ()
+                                ),
+                              GaugeMaxValue=100,
+                              GaugeMinValue=0,
+                              GaugeStyleType='Default',
+                              GaugeFlipColors=NO,
+                              MapShowScale=NO,
+                              MapShowNavigationControls=NO,
+                              MapShowCoordinates=NO,
+                              MapShapeNumSteps=8,
+                              MapShapeNumColors=1,
+                              MapCircleCalculateSizeFromIndicator=YES,
+                              RangeChartType='Area',
+                              DataInputAllowInsert=NO,
+                              DataInputAllowDelete=NO
+                            )
+                        )
+                      ),
+                      ItemWidth='*',
+                      IsVisible=YES,
+                      Orientation='Vertical'
+                    )
+                  ),
+                  ItemWidth='*',
+                  IsVisible=YES,
+                  Orientation='Horitzontal'
+                ),
+              IsVisible=NO,
+              PropagationMode='LeftToRight'
+            ),
+            SHEET (
+              Guid='cszVYORL',
+              Name='Análisis Proveedor cantidad y precio',
+              Layout=
+                LAYOUT (
+                  ItemHeight='*',
+                  Items=(
+                    LAYOUT (
+                      ItemHeight='*',
+                      Items=(
+                        LAYOUT (
+                          ItemHeight='*',
+                          Items=(),
+                          ItemWidth='*',
+                          IsVisible=YES,
+                          Orientation='Terminal',
+                          DataPanel=
+                            PANEL (
+                              Guid='ZfqXmpyn',
+                              PanelQuery=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Proveedor', [Expression]=EXPRESSION ([Proveedor|mJmemGJD]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Compras €', [Expression]=EXPRESSION ([Compras €|GhcpvsJk]), [Order]=0, OrderMode='Desc')
+                                  )
+                                ),
+                              Type='Table',
+                              LockQuery=NO,
+                              ShowFilters=NO,
+                              AllowMoveColumns=YES,
+                              IsSelectionRequired=NO,
+                              GridFormat='H4sIAAAAAAAACu1X227TQBB9R-IfrIXHqrEjtUIosVQcUiKlIcqtvG7jabJivWPtrhMM4oXv4Q944F_4AX6BtXNRWjtkE9IKCR5t-Zw9M3Nmdvzz2_faOy1pHySjnH0E6cxAKoaiTrxTlzg0jjkbU52_uZQsDFBoiZz4T584Ti2WGIPUqSNoBHXyrE1TTPRoQUEcpkTCeZ1omQBxKqWY55usBvEe0hVgRnkCJccWSYYKmgx42DFPTZSrcHLdxM_YapUVZAvFpcQkDjARmviu3df9JIqoTMtVV1dai-CWhsi7n51NjjWyiF2eOUhj81kut6C1DHbB2UREkAXXY5NpGajsVYnw6lGEJ0pjZKV8Xdcs3CiWVDk_vny1gjaYijlNjSEiagL_5L4M3M82ke8sfx-lbolbLC-99zCl_4NMZHrfyhAk8RugxiBCJiZWyCuQE7hmetqVMGOYqNz5xL-lXMFRchkgTyKhHrWLspHSw3lZp-_IfFfiDCBEaQUcihvTomGDapoZP6dYzsFtfcpxHgDned63p7mIfAM0q6-jzTmm4Kky6Tnta2kKva_qBdUAkQ9YXD7Fy4EjptgNh5YI4YNtbi_GOqH8moV6SvwO7Tz-ZDrcDPu24d9ih311H8kQ3oMZYueQGTGYW9nj0AoUXJJfOmZtCVm2hGwZb-5m-u5TdGCe2dpYs4sqZzH5QGFz-uZ6srwFrzA08vM94FW6nLkWTHn8r7MgMuPYRr_gD6aICmRfUw0H9mYbF8sn8c9enJ943rnddWc2WeJXq-5J9cw9in8GqCn_v-_9q_veVW_YZFyb_5qdfbwV2mZK743ebOTfL51rkjvB1Cp3f-_8X5N0GTfyDQAA',
+                              AllowPropagateFilters=YES,
+                              TableOptions=
+                                [TABLE OPTIONS] (
+                                  Appearance=APPEARANCE (),
+                                  SearchOptions=
+                                    [SEARCH PANEL] (
+                                      SearchPanelVisible=NO,
+                                      Text='Búsqueda...',
+                                      Width=240,
+                                      AllowColumnFiltering=YES,
+                                      AllowColumnSearch=YES
+                                    )
+                                ),
+                              TableCellMerge=NO,
+                              ShowGroupbox=NO,
+                              ShowHeaders=YES,
+                              ShowRowHeaders=NO,
+                              ChartOptions=
+                                [CHART OPTIONS] (
+                                  Legend=LEGEND (Visible=YES),
+                                  Appearance=
+                                    [CHART APPEARANCE] (
+                                      Palette='Office'
+                                    )
+                                ),
+                              GaugeMaxValue=100,
+                              GaugeMinValue=0,
+                              GaugeStyleType='Default',
+                              GaugeFlipColors=NO,
+                              MapShowScale=NO,
+                              MapShowNavigationControls=NO,
+                              MapShowCoordinates=NO,
+                              MapShapeNumSteps=8,
+                              MapShapeNumColors=1,
+                              MapCircleCalculateSizeFromIndicator=YES,
+                              RangeChartType='Area',
+                              DataInputAllowInsert=NO,
+                              DataInputAllowDelete=NO
+                            )
+                        ),
+                        LAYOUT (
+                          ItemHeight='*',
+                          Items=(),
+                          ItemWidth='*',
+                          IsVisible=YES,
+                          Orientation='Terminal',
+                          DataPanel=
+                            PANEL (
+                              Guid='gZbuPatS',
+                              PanelQuery=
+                                QUERY (
+                                  [Columns]=(
+                                    [QUERY COLUMN] (Alias='Año', [Expression]=EXPRESSION ([Año|RxKiQMMH]), IsMeasure=NO, [Order]=0, OrderMode='Desc', IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Compras €', [Expression]=EXPRESSION ([Compras €|GhcpvsJk]))
+                                  )
+                                ),
+                              Type='Table',
+                              LockQuery=NO,
+                              ShowFilters=NO,
+                              AllowMoveColumns=YES,
+                              IsSelectionRequired=NO,
+                              GridFormat='H4sIAAAAAAAACu1XzW7TQBC-I_EO1sKxapxIrRBKLAWHlEhJqPJXrtt4mqxY71i76wQXceF5uHDmwIE34QV4BXadH7mNQ5worZDgaMvftzPffDM7_vXte_WdlrQPklHObkE6M5CKoaiR8qlLHBpFnI2pTt9cSBb4KLRETrynTxynGkmMQOrEETSEGnnWpgnGerSgIA5TIua8RrSMgTilXMzzLKtBvIdkBZhRHkPOsZskQwVNBjzomqcmylU6adzEs2zV0gqyheJCYhz5GAtNPLfY1_04DKlM8qOurGLdBLc0hOX76mQ51shN7PLMQRKZz9JwN2LNg9U5m4gQbHI9NpnmgfJe5QReOUrgsdIYFop8XVebbhhJqpyfn78UgjaYijhNjCFCahL_6L703U9FMt9Z_j5K3RI3mF_68sOUPqNE_cdXLCSBDfStDEASrwFqDCJgYlII2QE5gSump5cSZgxjlVqeeDeUKziKiD7yOBTqUdvHzpIezvNa_FiSD8W1acugQTW1Zk_Ry9m3rTc5zn3gPJV8u8KbyDdAbWkdbc4xtU6UUea0r6Wp8R4BL1gGiHzAovyhnQ8cMcWuObREAB-KKlof65jyKxboKfG6tPv4g-hwC-w7f_4WJ-wb95EMUX4wQ-wcLSMG80L2OLQCGy5J7xizpQTM7hxbhpqble8-RRfm1tbGmpeoUhajB4oip2e3keWl18HADi177b9KlpO2AFOa_2ubhDVO0ewX_P4UUYHsa6rhwN5s42LXJN7Zi_OTcvm82CVnFlfiVSruSeXMPYp_Bqgp_7_e_avrXac3bDKuzW_Mzj7eCm0zpfdGZxv5zzvmmuROMtXS3b857zcWADsI4Q0AAA',
+                              AllowPropagateFilters=YES,
+                              TableOptions=
+                                [TABLE OPTIONS] (
+                                  Appearance=APPEARANCE (),
+                                  SearchOptions=
+                                    [SEARCH PANEL] (
+                                      SearchPanelVisible=NO,
+                                      Text='Búsqueda...',
+                                      Width=240,
+                                      AllowColumnFiltering=YES,
+                                      AllowColumnSearch=YES
+                                    )
+                                ),
+                              TableCellMerge=NO,
+                              ShowGroupbox=NO,
+                              ShowHeaders=YES,
+                              ShowRowHeaders=NO,
+                              ChartOptions=
+                                [CHART OPTIONS] (
+                                  Legend=LEGEND (Visible=YES),
+                                  Appearance=[CHART APPEARANCE] ()
+                                ),
+                              GaugeMaxValue=100,
+                              GaugeMinValue=0,
+                              GaugeStyleType='Default',
+                              GaugeFlipColors=NO,
+                              MapShowScale=NO,
+                              MapShowNavigationControls=NO,
+                              MapShowCoordinates=NO,
+                              MapShapeNumSteps=8,
+                              MapShapeNumColors=1,
+                              MapCircleCalculateSizeFromIndicator=YES,
+                              RangeChartType='Area',
+                              DataInputAllowInsert=NO,
+                              DataInputAllowDelete=NO
+                            )
+                        )
+                      ),
+                      ItemWidth='*',
+                      IsVisible=YES,
+                      Orientation='Horitzontal'
+                    ),
+                    LAYOUT (
+                      ItemHeight='*',
+                      Items=(
+                        LAYOUT (
+                          Name='Unidades Compradas',
+                          ItemHeight='*',
+                          Items=(
+                            LAYOUT (
+                              ItemHeight='*',
+                              Items=(),
+                              ItemWidth='*',
+                              IsVisible=YES,
+                              Orientation='Terminal',
+                              DataPanel=
+                                PANEL (
+                                  Guid='MHblzFNv',
+                                  PanelQuery=
+                                    QUERY (
+                                      [Columns]=(
+                                        [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                        [QUERY COLUMN] (Alias='Año', [Expression]=EXPRESSION ([Año|RxKiQMMH]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                        [QUERY COLUMN] (Alias='Cantidad comprada', [Expression]=EXPRESSION ([Cantidad comprada|NfXTSTjW]))
+                                      )
+                                    ),
+                                  Type='DynamicTable',
+                                  LockQuery=NO,
+                                  ShowFilters=NO,
+                                  AllowMoveColumns=YES,
+                                  IsSelectionRequired=NO,
+                                  GridFormat='H4sIAAAAAAAACuWUwU7CQBCG7ya-w2b1LHAvTUwTCAl6oEC8bmSAibs7zXQWU1_Ng4_kK1jQItAicPbYZr9__n_6dz_fP6InYZMCo7H4BqxWwDmS7-rOXVsrk2UWn41s3vQZZwl5YbI6vr5SKsqYMmAplDcOuvpmaAoKMv2W0ApzH6ztauEAWrUamdtd1ZJ4gaICVsYGaBhbF5nk0EOws8fyqUdcxdn41vFaLWpVyBGJPlPIEgpedNw-73QanDNcNLvuVF7r8EDAdQ63s6uxJevsz8xxkZXHNnZrXpuwe4sL72AdboSLZRNUz3xqCSmxDPycmhfQrr54HUzIBufzi7kpwutZezsEy044I2WJZriuxOnJxzwnS6IcOBUj8JeT3winljgmMfa_N-lhNOmhlfLeuLgTW3SIuVxM7_7HZ9Z5L0zU2r8-4y-3o_-TUgUAAA',
+                                  DynamicGridFormat='H4sIAAAAAAAACuWX327aMBTG7yftHSJv1yNQNHUSRAohUBD_WqDbrYXd4uLYkeMA4a2mXe5iF32gvcIcAl27JOCgqheMiwgd_Pt8jn0-4_z--av2TQo4xoJASjZYGEssAsJZHZQ_mcCAvk_JDMptZESWXLYFQQ5nUnAKrPfvDKPmC-5jISODQQ_XwYcejHgobxMdYJCAhZTWgRQhBkYpk_mYklbYAkd7aglpiPMSSMu1CKYoyNa42ENprCOxV_434ecaT2SaHagnsK6qQcfefRw26Pam1TAi687mIbocXl_aU7Ms5_Yq_rlW2iscULUFhsC64av4izbRYQivgWVqAQ70490FVhMHM0H8GXn8wbTI7SondRdmx1zIPkcKdcJAck8P2ncpivFGtE0gu8HyZ21EqnkQiWvO6RDzsIiDKW1x4UF5eFyLUInFbawZaDZVRsZzvmpQyBYBsOLRmeuUN_ck8pW8u57REGGUvcTpYFYowyiVVzRK_3LZdO_stinKwnULusPhNPTYGxjEfvzOixpDmzkPQ1gtvTU9c29cvOafyHDjLLsTl_an04fhJjL5eLHuNuzm2onGVfe6oFuaUMI38IoDmSQIImPGPV9ABIsa5zSBM3HRoPJ_uSgdyEgyOefbAjI04RLSvHzz2T12p556XFLlFYZI3WaLgOrKdlqmCizEPK-sx5ObujqGoThKPs30F5sIjLU4Ne4rQXIOrEr1y1FiJAiTyVtBYs4xYfcUj-A9TqJ6Ch0WqFBMNdS5tNDej62fd-mWP5vHx29dWMDOqWOT0rjldjzc2VqqovuYhZob2xY89IvP3b-ZJk3bI4G6oJ5KH5v4Rfq10st3SOsPHOEUn1cOAAA',
+                                  AllowPropagateFilters=YES,
+                                  TableOptions=
+                                    [TABLE OPTIONS] (
+                                      Appearance=APPEARANCE (),
+                                      SearchOptions=
+                                        [SEARCH PANEL] (
+                                          SearchPanelVisible=NO,
+                                          Text='Búsqueda...',
+                                          Width=240,
+                                          AllowColumnFiltering=YES,
+                                          AllowColumnSearch=YES
+                                        )
+                                    ),
+                                  TableCellMerge=NO,
+                                  ShowGroupbox=NO,
+                                  ShowHeaders=YES,
+                                  ShowRowHeaders=NO,
+                                  ChartOptions=
+                                    [CHART OPTIONS] (
+                                      Legend=LEGEND (Visible=YES),
+                                      Appearance=
+                                        [CHART APPEARANCE] (
+                                          Palette='Office'
+                                        )
+                                    ),
+                                  GaugeMaxValue=100,
+                                  GaugeMinValue=0,
+                                  GaugeStyleType='Default',
+                                  GaugeFlipColors=NO,
+                                  MapShowScale=NO,
+                                  MapShowNavigationControls=NO,
+                                  MapShowCoordinates=NO,
+                                  MapShapeNumSteps=8,
+                                  MapShapeNumColors=1,
+                                  MapCircleCalculateSizeFromIndicator=YES,
+                                  RangeChartType='Area',
+                                  DataInputAllowInsert=NO,
+                                  DataInputAllowDelete=NO
+                                )
+                            )
+                          ),
+                          ItemWidth='*',
+                          IsVisible=YES,
+                          Orientation='Horitzontal'
+                        ),
+                        LAYOUT (
+                          Name='Precio',
+                          ItemHeight='*',
+                          Items=(
+                            LAYOUT (
+                              ItemHeight='*',
+                              Items=(),
+                              ItemWidth='*',
+                              IsVisible=YES,
+                              Orientation='Terminal',
+                              DataPanel=
+                                PANEL (
+                                  Guid='eCaxwqoD',
+                                  PanelQuery=
+                                    QUERY (
+                                      [Columns]=(
+                                        [QUERY COLUMN] (Alias='Año', [Expression]=EXPRESSION ([Año|RxKiQMMH]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                        [QUERY COLUMN] (Alias='Cantidad comprada', [Expression]=EXPRESSION ([Cantidad comprada|NfXTSTjW])),
+                                        [QUERY COLUMN] (Alias='Compras €', [Expression]=EXPRESSION ([Compras €|GhcpvsJk])),
+                                        [QUERY COLUMN] (Alias='Precio €', [Expression]=EXPRESSION ([Precio €|jYqgIPKq]))
+                                      )
+                                    ),
+                                  Type='Table',
+                                  LockQuery=NO,
+                                  ShowFilters=NO,
+                                  AllowMoveColumns=YES,
+                                  IsSelectionRequired=NO,
+                                  AllowPropagateFilters=YES,
+                                  TableOptions=
+                                    [TABLE OPTIONS] (
+                                      Appearance=APPEARANCE (),
+                                      SearchOptions=
+                                        [SEARCH PANEL] (
+                                          SearchPanelVisible=NO,
+                                          Text='Búsqueda...',
+                                          Width=240,
+                                          AllowColumnFiltering=YES,
+                                          AllowColumnSearch=YES
+                                        )
+                                    ),
+                                  TableCellMerge=NO,
+                                  ShowGroupbox=NO,
+                                  ShowHeaders=YES,
+                                  ShowRowHeaders=NO,
+                                  ChartOptions=
+                                    [CHART OPTIONS] (
+                                      Legend=LEGEND (Visible=YES),
+                                      Appearance=
+                                        [CHART APPEARANCE] (
+                                          Palette='Office'
+                                        )
+                                    ),
+                                  GaugeMaxValue=100,
+                                  GaugeMinValue=0,
+                                  GaugeStyleType='Default',
+                                  GaugeFlipColors=NO,
+                                  MapShowScale=NO,
+                                  MapShowNavigationControls=NO,
+                                  MapShowCoordinates=NO,
+                                  MapShapeNumSteps=8,
+                                  MapShapeNumColors=1,
+                                  MapCircleCalculateSizeFromIndicator=YES,
+                                  RangeChartType='Area',
+                                  DataInputAllowInsert=NO,
+                                  DataInputAllowDelete=NO
+                                )
+                            )
+                          ),
+                          ItemWidth='*',
+                          IsVisible=NO,
+                          Orientation='Horitzontal'
+                        )
+                      ),
+                      ItemWidth='*',
+                      IsVisible=YES,
+                      Orientation='Sheet'
+                    )
+                  ),
+                  ItemWidth='*',
+                  IsVisible=YES,
+                  Orientation='Vertical'
+                ),
+              IsVisible=NO,
+              PropagationMode='LeftToRight'
+            ),
+            SHEET (
+              Guid='zZLkwKIu',
+              Name='Compras por Artículo',
+              Layout=
+                LAYOUT (
+                  ItemHeight='*',
+                  Items=(
+                    LAYOUT (
+                      ItemHeight='*',
+                      Items=(),
+                      ItemWidth='*',
+                      IsVisible=YES,
+                      Orientation='Terminal',
+                      DataPanel=
+                        PANEL (
+                          Guid='DDKiKvrX',
+                          PanelQuery=
+                            QUERY (
+                              [Columns]=(
+                                [QUERY COLUMN] (Alias='Proveedor', [Expression]=EXPRESSION ([Proveedor|mJmemGJD]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Código escandallo', [Expression]=EXPRESSION ([Código escandallo|EODPoKyl]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Compras €', [Expression]=EXPRESSION ([Compras €|GhcpvsJk])),
+                                [QUERY COLUMN] (Alias='Cantidad comprada', [Expression]=EXPRESSION ([Cantidad comprada|NfXTSTjW])),
+                                [QUERY COLUMN] (Alias='Precio €', [Expression]=EXPRESSION ([Precio €|jYqgIPKq]))
+                              )
+                            ),
+                          Type='Table',
+                          LockQuery=NO,
+                          ShowFilters=NO,
+                          AllowMoveColumns=YES,
+                          IsSelectionRequired=NO,
+                          GridFormat='H4sIAAAAAAAACu1Zy07bQBTdV-o_WG6XCJwXiypYSk2hSJAiEqDbwXNJRh3PtWbGSd2qm35Pdyy76II_6Q_0Fzp2EhSIUxxjDKgsbfncOffcM6_rPz9_tT9qSXogGeHsC0hrBFIxFFt2bd2xLRKGnPlEp292JaMeCi2R2-7LF5bVDiWGIHVsCRLAlv1qn8QY6ZNJCNtiSkScb9laRmBbG5mY1_NRDeITxDPAiPAIMoZdDHKsYIcBp13ztINylk7K23aTaO2NGWRJiF2JUehhJLTtOvm-7kVBQGSczbo547oI3tMQ1G6qMx_jCrmInY7Zj0PzWUp3gWsWrMPZQASQJHfEBsMsUNarDOL1UohHSmOQi_lVXZN0g1ASZf3-_iMXdJupkJPYGCIgJvGvzhvP-VY888YDZk6EZpRQy08loKRg_t36HfJvPlz-hxJ8hncpfL7Eb533PZR6T5xj9pyv3c-cvyYEjgAoylw6JGw_SArSdjvKB0GZGOQCHoAcwCnTQyP8iGGk0vXOds8JV1CKkB7yKBAqW8fN-9Ex2UiOcJy1vpcq-7E4Mwsz3SaaJKZPQ0x3v2xAh3Mce8B5qvtymReR74Ek5bW0GcfUO1ZGnvWelqbQq7KehOoj8j4Ls_fubOAJU-yMw56g8Dmvth1fR4SfMqqHttsl3er3o-Jm8C4vKBugBconghJTuyflioL0S7JHrWJ7NCq3x7YRVrLQZ5cX4kkZY2XiJVmiXrElmtWvGCseXB-LI1blXZIhGhUbolW9IQqd5x-NLQqxL8kczYrNsfkAh82VLjuPxRUr0i7JDq17s8OtV5gTBuNc5ihagAWPpPdZ0wqjLGlsLbk8OfPy3QzRhXFiamPMQ1RpFKMHijyjz7e8phfsA6SGftpbehtPb3Q5IqX5v0uSSHyTN_tJfG-IqED2NNFQcGbu46ShaQ6jTaex1qrnO4D0THvUHFbqzlq95ZRioD5qwp-biM9NxOcm4n_VRDw4Ot5hXJu_JLeu4Euh-0zpldHzS_i_O5lXQa4l0964_rPI_Qt814f9QBoAAA',
                           AllowPropagateFilters=YES,
                           TableOptions=
                             [TABLE OPTIONS] (
