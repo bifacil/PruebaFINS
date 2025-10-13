@@ -1,4 +1,4 @@
-﻿REPORT (
+REPORT (
   Guid='RBvsgqmI',
   IsReadOnly=NO,
   CatalogDefinition=
@@ -15,7 +15,7 @@
       Items=(
         [PANEL REPORT] (
           Name='Estadística',
-          IsVisible=NO,
+          IsVisible=YES,
           ReportPredicates=(
             [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('xFzFDEvC'), LeftPart=[Solo ventas facturadas|rulwxYtF]),
             [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('IeaPedwK'), LeftPart=[Solo ventas facturadas|rulwxYtF]),
@@ -125,7 +125,7 @@
                               ShowFilters=NO,
                               AllowMoveColumns=YES,
                               IsSelectionRequired=NO,
-                              GridFormat='H4sIAAAAAAAACu1azW7aQBC-V-o7WE4rtVKU8E9UEUsBShIp0CgQ0h43eAOrrnet3XWIW_XS5-ml5x566Jv0BfoKXZsfkbAuNhjblThi-MYz3347OzvDnx8_a-8FA13IEMDoE2TaPWQcUXKs5w9yugZsG6MBEP6TU4bMBiWCUawbz59pWs1m1IZMuBoBFjzW9y6ASx3Rn5jQNcSJg_GxLpgDde1QiXmxaFUiPkJ3BrgH2IGK1y4bueawhSA2O_JTi7JZOL7fuuFZqx3OIAEmThl17AZ1iNCNXLhfdx3LAsxVe12d-boMPhfQyj9lZ9HGHLmMnb6z59ryZ767S76qYCcYDYkFveCu0HCkAqkeKRwvxOK4wwW1Qnk-X1fd6Ev_Add-f_2mvQK_vlMNDIQD8OtQdpqI2xi4Uh0WkCx8zr1p5L6sT0MxSzQQIQVPWSpElNIj4pJB7tgOlNipFDxS0iChnB4JDXorv3AY0F6uGfnlJpFXshD5h14zneir6UXfBmwIybbDXnkQdikT5-SOqg_B_HYOwbjOBM_5d8yETDeakA8gMREZhkK2oWT_BomRzEH3iDrcLwh04w5gDmMhtkGxYxGu5vVoO7x6ldYVHasKoJV70dQGGMnFUEWvKNjIraxdzCYQwNsEvpFpgagGnGBMxw2Isc98MNHLyDMIvBXWhHyPXHKXS4IOuoLJpY7u98RYj1LcQ7a6wFUD-4ijWwzPiQkfwvJ74kv5BplipBsd0Em-aNtAEP-jGJIXQj5hIRQTF8JGCTorytgoiJikUkhYKqUMSCXSxSa7YokURkxyKSYsl3Lictng-pcVqWwQQkwyKSUsk0oKpWm0C3JWtBHV75gEUU5YENUUBRG-b5A9UYT3PSZhVBIWxlHiwojUUsmKIiI5HZMUqluTwsq2SB_BcShhrEv_kj78npmcP5nImybxlY2uzVoyQQ6Ehis7SZS1kRyE7bVarXq9VFfn-GAsePCx9XyzVW8GYIMePzEo_eh7lAWoOXdQDGsIPKwwFBTluhlgGTnf-IbPU3cAMHyiF_VOWSspduDYU5LMbZeU-8bltqIkjIgXx5XTXnCbmtJvfy5Yd6fNxhCW_G301ovNYznsJprYb4wo5ZB1BRBwzeR-QSfDaFmnHFX28_lwh1JXTrblBbqQ2y-Uc7GkoR4VAO_mv2kPPnfz3938dzf_jXRN3M1_d_PfGOe_7avrFsKyvxlQGMv_kM3uFYHQC8T9-jYSerGk-fcQem7kUTC1w8d_fDP-Auu0nOgMJwAA',
+                              GridFormat='H4sIAAAAAAAACu1azW7aQBC-V-o7WE4rtVKUmL8QVcRSgJJGCjQKhLTHDd7Cqutda3cd4la99Hl66bmHHvomfYG-QtfmRySsiw3GdiWOGL7xzLffzs7O8OfHz9o7wUAXMgQw-gSZdgcZR5Sc6IUDQ9eA42A0ACJ4csaQ1aBEMIp18-kTTas5jDqQCU8jwIYn-t4F8Kgr-hMTuoY4cTE-0QVzoa4dKjHPFq1KxEfozQB3ALtQ8dplI9ccthDEVkd-alE2CyfwWzd9a7XDGSTExBmjrtOgLhG6aUT7dde1bcA8tdfVma_L4HMB7cJjdhZtzJHL2Ok7e54jfxa4u-SrCnaK0ZDY0A_uCg1HKpDqkcLxYiKOu1xQO5Ln83XVzb70H3Dt99dv2gvw6zvVwEC4AL-MZKeJuIOBJ9VhA8nCZ-NVw_iyPg2lPNFAhBQ8ZZkQUc6OiEsGueu4UGKnUvBJyYKESnYkNOit_MJlQHu-ZuSXm0R-lIfI3_ea2URfzS76NmBDSLYd9sqDsEuZOCcfqPoQLGznEEzqTPCdf8ssyHSzCfkAEguRYSRkG0r2b5AYyRx0h6jLg4JANz8AzGEixDYodm3C1bweb4dXv9K6omNVAbRyL1raACO5GKroFQUbuZW1i9UEAvibIDAyLRDVgFOM6bgBMQ6YDyd6GfkGAn-FNSHfI5fc45Kgg65gcqnj-z0x1qMU95CjLnDVwD7i6BbDc2LB-6j8ngZSvkGWGOlmB3TSL9o2EMT_KIb0hVBIWQil1IWwUYLOizI2CiIhqRRTlko5B1KJdbHJr1hihZGQXEopy6WSulw2uP7lRSobhJCQTMopy-Qog9I03gU5L9qI63dCgqikLIhqhoKI3jfInyii-56QMI5SFsZx6sKI1VLJiyJiOZ2QFKpbk8LKtkgfwXEkYaxL_5I-gp6ZnD9ZyJ8m8ZWNrs1aMmEORIYrO0mUtZEchO21Wq16vVxX5_hwLLgPsPVCs1VvhmDDHj8yKP3o-5SFqNk4KEU1BO5XGAqLct0MsIycb3wz4Kk7ABg-0ot6p6yVFDtw7CtJ5rZLygPjcltREkXEi-PKaS-4TS3pdzAXrHvTZmMES8E2eu3H5rMcdRNN7DdGlHLIugIIuGZyv6CTYbSsU6rGfqEQ7VDqysm2vEAXjf1ixUgkDfWoAHg3_8168Lmb_-7mv7v5b6xr4m7-u5v_Jjj_bV9dtxCW_c2Qwlj-h2x2rwiFXiAe1Lex0Islzb-H0HMjD4KpHT7845v5F1jP8N4MJwAA',
                               AllowPropagateFilters=YES,
                               TableOptions=
                                 [TABLE OPTIONS] (
@@ -446,7 +446,7 @@
                   IsVisible=YES,
                   Orientation='Vertical'
                 ),
-              IsVisible=NO,
+              IsVisible=YES,
               PropagationMode='LeftToRight'
             ),
             SHEET (
@@ -1174,7 +1174,7 @@
                   IsVisible=YES,
                   Orientation='Horitzontal'
                 ),
-              IsVisible=YES,
+              IsVisible=NO,
               PropagationMode='LeftToRight'
             )
           )
@@ -1978,7 +1978,7 @@
                           ShowFilters=NO,
                           AllowMoveColumns=YES,
                           IsSelectionRequired=NO,
-                          GridFormat='H4sIAAAAAAAACu2czW7jNhDH7wX6DoLaBVpg4ejbVpEISJ1NaiBxg9jJdlH0wLWYhChNaikqrrfopc_TS8899NA36Qv0FUrJjtcby1mZYiQF0DGGZzTz1480OeTkv7_-3v-BMzCCDAGM3kOm3UEWI0oOdLNj6BqIIowmgGefnDAU9inhjGI9-PwzTduPGI0g43ONgCk80L84BXOa8KuFC11DMUkwPtA5S6Cu7eXafLnuVVj8DOf3BncAJzDnsZtOLmN4jCAOh-KvY8ru08ni1oPU2_7evckWFyeMJlGfJoTrgVHs26NkOgVsnh-16dwHu2k94HBqPpRn3cnKctN2-dDxPBJfy-LdCDbP7BCjGzKFaXYX6OY2zyjvo5zALSWBJzGn00KRr16sHpzDEIU01v79_Q_tK_DPn1QDE54A_HUhR0cojjCYCz6mQMjwq_FN3_hNXge7UToQLpinrBYlnPqVeDM-aooabn1qnAF2A4kWLUV58UAOTVaP8zJ6eDXSwWCcRAkUtsuZIoWkDii6zRBhOUzqUKDXvGFR6rej1JjwaxcjJeFFHambRmNAaMQywjTr02NAJgymi0JaIw9Wc6ZGaQHMMgLYjVs-1TgaalxLXomBACqfFT651RxRxgfkmm7ZZj7NLnNNlhGcAgIKiZCG-j0LIdODw3gCSYjITSHDMygm5teI34oReYdoEmf7az24BjiGSlTsU5xMSVztXj2tXFzQWV5BQZ3ol-StqAKER4CDlP7MfllryTc4xJjO-hDjTPXtIudYJpweIyx2E32G0j0F0INX78QYiQuZfwdByobGRZgClnkspO2MOBOU7JTxws-YUjxGUX6VKd_wCsXoLYYDEsJfir6Uw2wSeI1CfqsHpmF3PMM3e75nGz3H9Lzq6yjyUJUtG1RI2qOolM1DET-mBD-W1XFNz7e7vtd1HNvvVl9_Ks9PmWJL0xgqk4sijiwZjpyO63meaxmG2XX9nlt99U6eo1ILraYAVCoJReTYu5MzBMPqS5vyqKipaDaFGTXZKILH2R0ey-p2nK5junbPtMX8U31RWOni5xnOOuWyUESOK_GD5bnVF8-Vr3SeMTDymSiCxpOAxnE6pt3rOWKlbBqe07OrP34owZDkuUtjyJGMXxEv3Xp58Ruz1HmGk46CVBRR1KuXIunDLjXTzo5n3k3Bp0QKirDxa8am-oKzkqPRpgCkJBlVVUKj4k269IFqaXiKH6E2DJTigauCwqx5gqm-eCx116ApnEgFr4oVq2ZWqi8Qy93LaAosctGrouXpasKfPGO_QnBWiBXZF7GBTHbbok_FRYP0pv-20_3HIN3leF9hfXHTlaAmhNeIwHCR1cLrCYOQvBHK0NkFDMUlBspGE4BhQaercRB8MH0gWj4uUrPFEM5SOcWYP6dx5lywRUmRN7neT7G8SnNGQxF31rfw7Xx5faOAp4ylV2lu6VgsStLCf_-W0hiyEQccSk56p3TRLZPOwYb70rWKzd4j9F64tSzjpeUaSgbjmHKA2w6V-jsz2g6V-nsy2g4VFce4bYeK-vmi7VBpO1TaDpW2Q6XtUFFXNWo7VNoOlSdbSrYdKhuynF1cLroCthRgjA8FrM2lUGq3rJxt_dbqAaco5hX3wazFF_y4aFL4SRvE2lA4U7JRXy99PN7rs9LxI5_7ex__B4_gfy5pUp_VQwAA',
+                          GridFormat='H4sIAAAAAAAACu2czW7jNhDH7wX6DoLaBVpg4Yj6slUkAlJnkxpI3CB2sl0UPXAtJiFKi1qKiusteunz9NJzDz30TfoCfYVSsuP1xnJWphhJAXSM4RnN_PUjTQ45-e-vv_d_4AyOEMOQ4PeIaXeIxZiGBzroGLoGo4jgCeTZJycMB30ackaJ7n_-mabtR4xGiPG5FsIpOtC_OIVzmvCrhQtdw3GYEHKgc5YgXdvLtfly3auw-BnN7w3uIElQzmM3nVzG6BgjEgzFX8eU3aeTxa37qbf9vXuTLS5OGE2iPk1CrvtGsW-PkukUsnl-1MC-D3bTesDRFDyUZ93JynLTdvnQ8TwSX8vi3Qg2z-yQ4JtwitLsLvDNbZ5R3kc5gZtKAk9iTqeFIl-9WN0_RwEOaKz9-_sf2lfwnz-pBic8geTrQo6OcBwROBd8TKGQ4Vfjm77xm7wOVqN0CLlgnrJalLDrV-LN-Kgpajj1qXEG2Q0KtWgpyosHcmiyepyX0cOtkQ6G4iRKkLBdzhQpJHVA0W2GCMthUocCveYNi1K_HaXGhFe7GCkJL-pIHRiNAaERywgA6tNjEE4YSheFtEYezOZMjdICgDICWI1bPtU4GmpcS16JgQArnxU-udUcUcYH4TXdss18ml3mmiwjNIUhLCRCGur3LEBM9w_jCQoDHN4UMjxDYmJ-jfmtGJF3mCZxtr_W_WtIYqRExT4lyTSMq92rp5WLCzrLKyioE_0yfCuqAMER5DClP7Nf1lryDQ4JobM-IiRTfbvIOZYJp8eYiN1En-F0TwF1_9U7MUbiQubfIZiyoXERpoBlHgtpOyPOBCU7ZbzwM6aUjHGUX2XKN7zCMX5L0CAM0C9FX8phNgm8xgG_1X1gWB3X8EDPcy2jZwPXrb6OIg9V2bJBhaQ9ikrZPBTxAyT4Mc2OA1zP6npu17Ytr1t9_ak8P2WKLU1jqEwuijgyZTiyO47ruo5pGKDreD2n-uqdPEelFlpNAahUEorIsXYnZwiH1Zc25VFRU9FsCjNqslEEj707PKbZ7dhdGzhWD1hi_qm-KKx08fMMZ51yWSgix5H4wXKd6ovnylc6zxgY-UwUQeNKQGPbHWD1erZYKQPDtXtW9ccPJRiSPHdpDDmS8SvipVsvL15jljrPcNJRkIoiinr1UiR92KVm2tnxzLsp-JRIQRE2Xs3YVF9wVnI02hSAlCSjqkpoVLxJlz5QLQ1P8SPUhoFSPHBVUICaJ5jqi8dSdw2awolU8KpYMWtmpfoCsdy9jKbAIhe9Klqerib8yTP2K4xmhViRfREbyGS3LfpUXDRIb_pvO91_DNJdjvcV1hc3XQlqAnSNQxQsslp4PWEIhW-EMnR2gQJxiYGy0QQSVNDpahz4H0wfiJaPi9RsMUSzVE4x5s9pnDkXbNGwyJtc76dYXqU5o4GIO-tb-Ha-vL5RwFPG0qs0t3QsFiVp4b9_S2mM2IhDjiQnvVO66JZJR6ILXjpmsdl7hN8Lt6ZpvDQdQ8lgHFMOSduhUn9nRtuhUn9PRtuhouIYt-1QUT9ftB0qbYdK26HSdqi0HSrqqkZth0rbofJkS8m2Q2VDlrOLy0VXwJYCjPGhgLW5FErtlpWzrd9aPeAUx7ziPpi1-PwfF00KP2mDWBsKZ0o26uulj8d7fVY6fuRzf-_j_-Dh_w9wGUxA1UMAAA',
                           AllowPropagateFilters=YES,
                           TableOptions=
                             [TABLE OPTIONS] (
@@ -2027,7 +2027,7 @@
                   IsVisible=YES,
                   Orientation='Horitzontal'
                 ),
-              IsVisible=YES,
+              IsVisible=NO,
               PropagationMode='LeftToRight'
             ),
             SHEET (
@@ -2122,7 +2122,8 @@
                                         [QUERY COLUMN] (Alias='Año', [Expression]=EXPRESSION ([Año|RxKiQMMH]), IsMeasure=NO, [Order]=0, OrderMode='Asc', IsHierarchyLevel=YES),
                                         [QUERY COLUMN] (Alias='Comercial', [Expression]=EXPRESSION ([Comercial|uFGTPKze]), IsMeasure=NO, IsHierarchyLevel=YES),
                                         [QUERY COLUMN] (Alias='Pedidos €', [Expression]=EXPRESSION ([Pedidos €|QKDNBygx])),
-                                        [QUERY COLUMN] (Alias='Margen pedidos €', [Expression]=EXPRESSION ([Margen pedidos €|TZAVqPqS]))
+                                        [QUERY COLUMN] (Alias='Margen pedidos €', [Expression]=EXPRESSION ([Margen pedidos €|TZAVqPqS])),
+                                        [QUERY COLUMN] (Alias='Margen pedidos %', [Expression]=EXPRESSION ([Margen pedidos %|YGLNpntD]))
                                       )
                                     ),
                                   Type='Table',
@@ -2130,7 +2131,7 @@
                                   ShowFilters=NO,
                                   AllowMoveColumns=YES,
                                   IsSelectionRequired=NO,
-                                  GridFormat='H4sIAAAAAAAACu1Yy27TQBTdI_EP1sCyapxHF6DEUnBJidSEqnmU7TS-TUaM51oz4wQXseF72LBmwYI_4Qf4BcbOQ2njECdyQhFd2vK5c-6Z4zv3zq9v36vvtKQdkIxydgvSGoNUDEWNFI9tYtEg4GxAdfLmTDLPRaElcuI8fWJZ1UBiAFJHlqA-1MizcxphqPvTEMRiSoSc14iWIRCrkIp5vhzVIN5DNAeMKQ8hZdnVID0FDQbca5unBsp5Oglv4sTRqoU5ZE2IM4lh4GIoNHHsbF93Qt-nMkpnXZ5zXQU3NfjF--osx1ggV7GzNbtRYD5L6K5wTYPVORsKH-LkLtlwlAZKe5VCvJQL8VBp9DMxX-wrcS7AYx4q6-fnL5mgp0wFnEbGED41iX-0X7r2p90zL_-9zFtUDkFYwaEE2Oj_DkrdFDeY7v3ifry_JEj9x1fMJEFM9K30QBqMGoDwmBhmArbASH7F9OhCwphhqJJfnjg3lCvIRUMXeegLlS5hZT8SxrX0EidpJS4vxXvi2pQl75RqGls-Qc9q_7raxHHiAueJ5OsVXkW-ARrvrKXNOmarI2WUOe5oafZ4C8LTKF1E3mVB-qGVDuwzxa45NIUHH7IqWh_okPIr5ukRcdq0ffhCvLsFXPRBDszJ-k_5YDvWOZmheGAzlA9uhm0P44dih21552SI0oENUTm4IXbsUR6KL3akn5M9ynuzx8Y2pM9gksksu27EimeSdtRMdB6L57M1DZC9LN_9EG2YxCY3Rr1AlUQxeqDIsvry5Dbrj1voxQ1OPCK9imZdWYZISf6v4yRi_2TNfhrfHSEqkB1NNez4p57jdC4nTuXkxdFJKVuF6Zgh31Sjkn1UOrFz8U8XNeWPo_DjKPyfjsKty16DcW3uvDYWsrXQc6b01ujlSvbneXwR5E4y1cLdqz_nN8z4PLYOFAAA',
+                                  GridFormat='H4sIAAAAAAAACu1ZzW7TQBC-I_EOlqG3qnXS5ABKLAWXlkpNiJK05bqNp8mK9Y61u25qEBeehwtnDhx4E16AV2Dt_ChtNtSxXLcVPcbyN_vNt9_ujCd_fvxsfFCC9EFQwugnENYlCEmRN-3KjmNbJAwZHRKVPjkU1PeQK4HMdp8_s6xGKDAEoWKLkwCa9otjEmOkTqchbItKHjHWtJWIwLZ2jZiXy1E14iPEc8AlYREYll0NciLhgALzO_rXAYp5Oilv202iNXbnkDUhDgVGoYcRV7brZHu7HwUBEbGZdW3OdRV8pCCo3FRnOcYCuYqdrTmIQ_1aSneFqwnWYnTEA0iS69HR2AQyPTIQrxZCPJIKg0zMF_tqu13wqY_S-v31WyboPpUhI7E2REB04p-d157zJX_me_eXeZuIEXArvF8Bag9GgK2c6XezpX_r8e-jUEf8As1Hv3I3R39Jjtav75hJgoToe-GD0Bg5BO5TPsoEbIMW_IyqcVfAJcVIpjee7V4QJqEQDT1kUcClWcL63UiYlJIeTkw3fFGKn_BzfSv7-0SRxPApelb6zIAWYzjxgLFU8vUKryLfAUl21lJ6Hb3VsdTK7PSV0Hu8AeFplAEiG9DQXLPNwFMq6TmDI-7DVVZFW0MVEXZGfTW23Q7plF-H8lvAwwDEUDcWj8oHm7EuyAyVks2wV7oZNu1FHoodNuVdkCGqJRuiVrohcrZoD8UXOekXZI-9ku1Rv297bD1mc2yVaY3anVnj1g71lMIkk1HybsOKX9IvFT3r8GkyuVjTGzvL8t0M0YFJYnBt0i7KNIrWA3mW1ZdnGrNPpzb6Se-bDA_exLOGPUOkNP-3SRKJe7JmP43vjREliL4iCnKe0mOcTqy0eeqvtuvVbMWnr8dfulBVne1q3SnEPwNUhD0NiZ6GRE9Dov9xSNTunRxQpvQw_NZ7fC30mEq1MXr5Iv_3pGoR5Foyjd3r_wm4fwFgu_YcJxgAAA',
                                   AllowPropagateFilters=YES,
                                   TableOptions=
                                     [TABLE OPTIONS] (
@@ -2182,7 +2183,8 @@
                                       [Columns]=(
                                         [QUERY COLUMN] (Alias='Familia', [Expression]=EXPRESSION ([Familia|VnPAJBWg]), IsMeasure=NO, [Order]=1, OrderMode='Asc', IsHierarchyLevel=YES),
                                         [QUERY COLUMN] (Alias='Pedidos €', [Expression]=EXPRESSION ([Pedidos €|QKDNBygx]), [Order]=0, OrderMode='Asc'),
-                                        [QUERY COLUMN] (Alias='Margen pedidos €', [Expression]=EXPRESSION ([Margen pedidos €|TZAVqPqS]))
+                                        [QUERY COLUMN] (Alias='Margen pedidos €', [Expression]=EXPRESSION ([Margen pedidos €|TZAVqPqS])),
+                                        [QUERY COLUMN] (Alias='Margen pedidos %', [Expression]=EXPRESSION ([Margen pedidos %|YGLNpntD]))
                                       )
                                     ),
                                   Type='Table',
@@ -2190,7 +2192,7 @@
                                   ShowFilters=NO,
                                   AllowMoveColumns=YES,
                                   IsSelectionRequired=NO,
-                                  GridFormat='H4sIAAAAAAAACu1Y3Y7SQBS-N_EdmtHLdSngxmigCbKybgJI-FtvZ-lZmDid08xMwWq88Xl8Ay98F1_AV3BaftLdFinIIol7ScP3zXfOfOecnv76_qPyXkvaA8koZ59AWlOQiqGokuKpTSzq-5yNqI6fXEjm1lFoiZw4jx9ZVsWX6IPUoSWoB1XypElDDPRwTkEspkTAeZVoGQCxCpmYp0lWg_gA4RIwpTyAjGPTJAMFDQbcbZtfDZTLcGLdxInYKoUlZA3FhcTAr2MgNHHsfP_uBZ5HZZiturzUmgZfavCKd7OT5Fgh09jFmf3QN3-L5aa0ZsFqnI2FB1FwXTaeZIGyHmUIL-1FeKA0ermUr-6VOB1wmYvK-vn1Wy7oOVM-p6ExhEdN4J_tV3X7y-6Rl_9d5C0qxyAs_1AJ2Oj_Hkp9KW4w2_ul-_H-X1gh0vtOuiCJU1MjEC4T41zAFpjMXzE96UiYMgxUXPnEuaFcweGrKJGCBvUYZ_TIw9_opDrywBPqoE00mihdnGU1-j0mfSCuTX92z6mmUe3HBIshmA2ocY6zOnAeZ319ktPIt0Cjy7W0OcfcdqhMck57Wppr3k7znKiPyPvMzx7g2cAhU-yaw6Vw4WPevNZGOqD8irl6Qpw2bR--nHY3wrYN6FjMsK3uPRmieGBDlA9uiB1H9LH4Ykf5e7JH6d7ssXH-DBnMcpll14tIeSZ-GzMLjcui9WTN5LOT6btL0YZZZHJj1A6qmMXkA0We05OLy-L1sIWukR9vCK_DxTjOwRTH_yYKIvJP3ujn_PUJogLZ01TDjpXaxPlaSpznZy9Pnr3IV7A9s-Mau5Xsk9KZvRf_9FFT_rAJPmyC_-km2OoOGoxr88lnYyNbC20ypbdGJzvZn9fRFcmtYCqF21--nN-ptkJ9DRMAAA',
+                                  GridFormat='H4sIAAAAAAAACu1Y3W7aMBS-n7R3iLz1risppZo2QSRGR1epMMRPu1uXnII1xyeyHWg27WbPszfYxd5lL7BXmBOgoiWMkNHAtF4S8X3-zvF37OPz6_uP8gctaQcko5x9AmmNQCqGokIOD2xiUd_nrE91_OVUMreGQkvkxHn6xLLKvkQfpA4tQT2okGfnNMRAX0woiMWUCDivEC0DIFYhEfN8ntUgPkI4A4woDyBh2UWSnoI6A-42za86ylk4sW7iRGzlwgyyhOJUYuDXMBCaOHa6f3cCz6MyTFZdmmldBJ9p8A7vZ2ee4xa5iJ2u2Q1987dY7oLWJFiVs4HwIAquzQbDJFDSpwThxY0ID5RGL5Xy230lTgtc5qKyfn79lgp6wpTPaWgM4VET-Gf7dc3-kj3yo-1F3qByAMLyt5uA0s4kYC9j-K104a8s_w5KfSauMbn0iw9T-n9RCZHe99IFSZyq6oNwmRikAjbA5P2S6WFLwohhoOKDjzjXlCvI_xCZS0GdeowzuuPhr3RSDXngCZXrHRJdqG0cJ91zG0x6T1yZ68k9oZpGlR8TTHuAZECVcxzXgPM468uTvIh8BzTaXEubdcxuh8ok56Cjpdnm9TRPiLqIvMv85P4lGXjBFLvicCZcuEmb12pfB5RfMlcPidOkzfzLKbsR1j2AdsUM6-rekCEOczbEUe6GyNih7IovMsrfkD2KOdujtG177P3L5tjL0xpHD2aNla3JBYNxKqNk3YYFv8SNunnquyx6uC9piuz59N2naMI4MrgxaQtVzGLygSLN6vNP-unLoYGukR-_nd-E004tBVMc_9soiMg9aaOf8NeGiApkR1MNGav0HCcDG-KUjl_tv3iZrlg7ZvpjTqKivV88tjfiny5qyh9nJI8zkscZyf84I2m0e3XGtZkFrzzHl0LPmdJro-cP8j8Pam5J7gRTLtwdiTu_AZMNH1MmFwAA',
                                   AllowPropagateFilters=YES,
                                   TableOptions=
                                     [TABLE OPTIONS] (
@@ -2315,7 +2317,7 @@
                   IsVisible=YES,
                   Orientation='Vertical'
                 ),
-              IsVisible=NO,
+              IsVisible=YES,
               PropagationMode='LeftToRight'
             ),
             SHEET (
@@ -3717,7 +3719,7 @@
       Items=(
         [PANEL REPORT] (
           Name='Compras a Proveedores',
-          IsVisible=YES,
+          IsVisible=NO,
           ReportPredicates=(
             [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('USerLjLX'), EditView='SimpleSelection', LeftPart=[Año|RxKiQMMH], Operator='Equal', Expressions=(SELECT_ALL)),
             [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('xtRDOeDJ'), LeftPart=[Estado|VceLXHvD], Operator='Equal', Expressions=('Facturado')),
