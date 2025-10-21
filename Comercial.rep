@@ -15,7 +15,7 @@ REPORT (
       Items=(
         [PANEL REPORT] (
           Name='Estadística',
-          IsVisible=YES,
+          IsVisible=NO,
           ReportPredicates=(
             [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('xFzFDEvC'), LeftPart=[Solo ventas facturadas|rulwxYtF]),
             [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('IeaPedwK'), LeftPart=[Solo ventas facturadas|rulwxYtF]),
@@ -1931,7 +1931,7 @@ REPORT (
       Items=(
         [PANEL REPORT] (
           Name='Pedidos',
-          IsVisible=NO,
+          IsVisible=YES,
           ReportPredicates=(
             [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('JVIdxlfm'), LeftPart=[Año|RxKiQMMH], Operator='Equal', Expressions=(2025)),
             [QUERY PREDICATE] (SheetFilterMode='NotGlobal', SheetsFiltered=('OgOkjhCd', 'qJCqkqtO'), LeftPart=[Estado|dbmXNVqL], Operator='Equal', Expressions=('Pendiente')),
@@ -2213,7 +2213,10 @@ REPORT (
                                   ChartOptions=
                                     [CHART OPTIONS] (
                                       Legend=LEGEND (Visible=YES),
-                                      Appearance=[CHART APPEARANCE] ()
+                                      Appearance=
+                                        [CHART APPEARANCE] (
+                                          Palette='Office'
+                                        )
                                     ),
                                   GaugeMaxValue=100,
                                   GaugeMinValue=0,
@@ -2317,7 +2320,7 @@ REPORT (
                   IsVisible=YES,
                   Orientation='Vertical'
                 ),
-              IsVisible=YES,
+              IsVisible=NO,
               PropagationMode='LeftToRight'
             ),
             SHEET (
@@ -2557,6 +2560,7 @@ REPORT (
                                 [QUERY COLUMN] (Alias='Cliente', [Expression]=EXPRESSION ([Cliente|ZbwrrLaC]), IsMeasure=NO, IsHierarchyLevel=YES),
                                 [QUERY COLUMN] (Alias='Referencia escandallo', [Expression]=EXPRESSION ([Referencia escandallo|QgYwbHBE]), IsMeasure=NO, IsHierarchyLevel=YES),
                                 [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                [QUERY COLUMN] (Alias='Fecha entrega', [Expression]=EXPRESSION ([Fecha entrega|dFAGccsz]), IsMeasure=NO, IsHierarchyLevel=YES),
                                 [QUERY COLUMN] (Alias='Cantidad pedida', [Expression]=EXPRESSION ([Cantidad pedida|gMxPjQPo])),
                                 [QUERY COLUMN] (Alias='Pedidos €', [Expression]=EXPRESSION ([Pedidos €|QKDNBygx])),
                                 [QUERY COLUMN] (Alias='Importe a cuenta €', [Expression]=EXPRESSION ([Importe a cuenta €|NRysQdoX])),
@@ -2652,7 +2656,8 @@ REPORT (
                                     [QUERY COLUMN] (Alias='Núm pedido', [Expression]=EXPRESSION ([Núm pedido|qSSClqca]), IsMeasure=NO, IsHierarchyLevel=YES),
                                     [QUERY COLUMN] (Alias='Cliente', [Expression]=EXPRESSION ([Cliente|ZbwrrLaC]), IsMeasure=NO, IsHierarchyLevel=YES),
                                     [QUERY COLUMN] (Alias='Referencia escandallo', [Expression]=EXPRESSION ([Referencia escandallo|QgYwbHBE]), IsMeasure=NO, IsHierarchyLevel=YES),
-                                    [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES)
+                                    [QUERY COLUMN] (Alias='Descripción', [Expression]=EXPRESSION ([Descripción|LoFDkQMA]), IsMeasure=NO, IsHierarchyLevel=YES),
+                                    [QUERY COLUMN] (Alias='Fecha entrega', [Expression]=EXPRESSION ([Fecha entrega|dFAGccsz]), IsMeasure=NO, IsHierarchyLevel=YES)
                                   )
                                 )
                             )
@@ -2662,7 +2667,7 @@ REPORT (
                           ShowFilters=NO,
                           AllowMoveColumns=YES,
                           IsSelectionRequired=NO,
-                          GridFormat='H4sIAAAAAAAACu2azW7aQBDH75X6Dpbb3qLEfOWjIkiUlAQpUAQk6XVjT2DV9a61uw51q176PL311h56yJv0BfoKXRuISDCNMc4GVE4I5P_4P7M_dq0Z__n5q_xectQFjhHBn4Ab18AFZvTQzG1bpoE8j2AbyeiXY46dGqOSM2JWnj8zjLLHmQdcBgZFLhyaL05RwHx5PgphGlhQn5BDU3IfTGMnVvNyOqpSfIBgIrhGxIeY284GORNQx0CclvpWZ3ySTuTbrITRyjsTyZwQx5z5Xo35VJoVK9nVXd91EQ_iXZcmXmfFDQlu7n51pmPcKme143v2Ak9dFtmd8RonqxLcpy6EyXVwfxAnivspxng-E-O-kMxN5Px2XZUKUYkd5BgeOOozkfwIC4-gQEHhIpX8Z-t1y_qSPvvC02XfDpNmwvj99VvKzGvLZF58uswbrse4BAMZtq8QRsuUIL9ECUpPV4Im4n2gI_AVA69Spt9ORsCD219XrUeDXrH4rS_3OFvfVDnqyMUEJ9sBQq_vuAPcrFSFDdTBtJ9I2ARV8wssB20O15j5Itr0zcoVIgIyKWONEd-lYk4VrccpY3icdtgw7pTLsOpn9FIdTs4RkijkPgowfgKIF1QJYcMaEBKVfX6VZ5UngMLVNaS6j1ruQKjibHclV-u8mOdRoB5jpIe9-KeXeOE5FviSQIM68DFpXau29BG5wI4cmJUWauk_kZcAAezBmmGQ2HFGEOQ0Q1DQDkHr5oc7PpDWCoVFfWcERF4zEEXtQNQIVk9nsFYwLOI5IxAKmkEoaQehA1fAgdoYGSBsRB2kFm-tsEifQUaQFDVDsqsdkiNVWI49G998p2vFxsLGM0KipBmJPf0HSIr-zqpQkcZ7RmDsagZjXzsYi7a-VgWKRX1nBMSeZiAOtAORuiO4KmSkTiAjRPY1I6KaWboZSdUyXRU-UpnPiI2DR2PjwYboOYZhIlDSLsMML1FvXE0XHRzOCue0Yq3p8t0P0YJhSLiCtM1EFEXVg9Ekd5-eIo6b9U3mKPvRuO5NMO4PJ4gU5f82TCKkJ2n2o_i1AWMCeFciCSn_padsNCNWfa-iVdgqHiTrdnTVxFl1RvLWVr5kZQJQj0lENnPZzVx2M5fdzGX_v7lss3NWx0Sq928ePMjmSk-xkAurp0-yfw-Hb4PcSaa8c_c1pMpfTgE68pokAAA',
+                          GridFormat='H4sIAAAAAAAACu2azW7aQBDH75X6Dpbb3qKEz3xUBImS0iIFioAkvW7sCay63rV216Fu1Uufp7fe2kMPeZO-QF-hawMRCaaxjbOAyikC8R__Z_aX3dWM__z8VXkvOeoBx4jgT8CNa-ACM3ps5ndzpoFcl2ALyfCbNxzbdUYlZ8SsPn1iGBWXMxe49A2KHDg2n50in3nyfBzCNLCgHiHHpuQemMZepOb5bFSl-AD-VHCNiAcRj50PciaggYHYbfWpwfg0ndC3WQ2iVfamkgUh3nDmuXXmUWlWc_F-3fMcB3E_2nV56nVe3JTg5O9XZzbGrXJeO3lm33fVz0K7c16jZDWCB9SBILkuHgyjRFFfRRgvZGLcE5I5sZzfrqtSISqxjWzDBVv9jSU_wcIlyFdQOEgl_zn3sp37kj774uqy7wRJM2H8_votZeb1ZTIvrS7zpuMyLsFAhuUphNEyJSgsUYLy6krQQnwAdAy-YuBFyvQ78Qh4cPvrqfVo0isWvfXlH2frmylHAzmY4Hg7QOD1HbeBm9WasIDamA5iCVugan6B5bDD4RozT4Sbvlm9QkRAJmWsM-I5VCyo4iOVMThOu2wUdcplWPUzeqkOJ_sESRRwHwaY3ACiBTVC2KgOhIRlX1zleeVbQMHqGlI9Ry23L1RxdnuSq3VO5nkcqM8Y6WM3-vYSLTzHAl8SaFIbPsata82SHiIX2JZDs9pGbf0n8hIggDXcMAxiO84IgrxmCIraIWjf_HAmB9JGoZDUd0ZAFDQDUdIORJ1gdTuDjYIhieeMQChqBqGsHYQuXAEHamFkgLAQtZFavI3CIn0GGUFS0gzJvnZITlRhOXYtfPOdbhQbiY1nhERZMxIHq7lWGmo_5jDYwOtlIucZQbGvGYpD_beKFE2_dcEijfeMwDjQDMaRdjCS9kPXBYqkvjMC4lAzEPmcdiJS94nXBY3UCWTEyJFuRvT3MFM10teFj1Tms2poPV5b88E--TmGUSxS0q7DHDDhyEQNnW0cjJAXdOhzs_W7H6INowBxRWmHiTCKqgejcZ4-O1yezHBazFb2wynuK38yNogRKcz_dZBEgE_c7Mfx60PGBPCeRBJS_puesvGrA4qe4n5-p3QUrwnWUy8iqIZZIbdTKOcyAajPJCLbcf12XL8d12_H9f_fuL7VPWtgItVrWQ8eZAulp1jIxOrZk-zf7wzcBrmTTGXv7ttp1b-paWY_sSYAAA',
                           AllowPropagateFilters=YES,
                           TableOptions=
                             [TABLE OPTIONS] (
@@ -2708,7 +2713,7 @@ REPORT (
                   IsVisible=YES,
                   Orientation='Horitzontal'
                 ),
-              IsVisible=NO,
+              IsVisible=YES,
               PropagationMode='LeftToRight'
             ),
             SHEET (
